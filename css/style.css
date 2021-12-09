@@ -68,6 +68,10 @@ body{
     content: url('../img/App.png');
 }
 
+.buttons #ytbtn{
+    width: 150px;
+}
+
 .buttons .youtube{
     content: url('../img/YT.png');
 }

@@ -46,7 +46,7 @@
 }
 
 .slide .info ul li{
-  list-style: circle;
+  list-style: disc;
   color: white;
   margin-left: 20px;
 }
