@@ -1,0 +1,265 @@
+body{
+    background: rgb(115,30,74);
+    background: linear-gradient(180deg, rgba(115,30,74,1) 0%, rgba(24,20,34,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.naslov{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.video-wrapper {
+    max-width: 100%;
+    min-width: 320px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: block;
+    padding-bottom: 30px;
+    z-index: -2;
+}
+
+.video-wrapper video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+    z-index: -2;
+}
+
+.video-description {
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.buttons button{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.aboutus{
+    margin-top: 50px;
+    background: url('../img/About_Us.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.aboutus #about-us-heading{
+    font-size: 40px;
+    background: -webkit-linear-gradient(left,#eee 60%, rgb(105, 182, 233) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 60%;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.aboutus #atext{
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-left: 50%;
+    margin-top:50px;
+}
+
+.aboutus button{
+    margin-left: 62%;
+    margin-top: 100px;
+    width: 150px;
+    height: 75px;
+}
+.careers{
+    background: url('../img/Careers.png') no-repeat  ;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.careers #careers-heading{
+    font-size: 40px;
+    background: -webkit-linear-gradient(left,rgb(226, 133, 70) 10%, rgb(221, 219, 217) 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 10%;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.careers #ctext{
+    color:white;
+    width: 30%;
+    text-align: center;
+    margin-top:50px;
+}
+
+.careers button{
+    margin-top: 100px;
+    margin-left: 11%;
+    width: 150px;
+    height: 75px;
+}
+@media screen and (max-width:500px){
+
+    .naslov{
+         padding-bottom: 10px;
+        font-size: 40px;
+    }
+    
+
+    .img-slider .slide1 img{
+        display: none;
+    }
+
+    .img-slider .slide1{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide1 .info li{
+        font-size: 13px;
+    }
+
+    .img-slider .slide2 img{
+        display: none;
+    }
+
+    .img-slider .slide2{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide2 .info li{
+        font-size: 13px;
+    }
+    .img-slider .slide3 img{
+        display: none;
+    }
+
+    .img-slider .slide3{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide3 .info li{
+        font-size: 13px;
+    }
+    .img-slider .slide4 img{
+        display: none;
+    }
+
+    .img-slider .slide4{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide4 .info li{
+        font-size: 13px;
+    }
+    .img-slider .slide5 img{
+        display: none;
+    }
+
+    .img-slider .slide5{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide5 .info li{
+        font-size: 13px;
+    }
+    .img-slider .slide6 img{
+        display: none;
+    }
+
+    .img-slider .slide6{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide6 .info li{
+        font-size: 13px;
+    }
+
+    .img-slider .slide7 img{
+        display: none;
+    }
+
+    .img-slider .slide7{
+        background: url('../img/WarEden_M.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide7 .info li{
+        font-size: 13px;
+    }
+}
