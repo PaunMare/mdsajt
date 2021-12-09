@@ -49,15 +49,14 @@ body{
 }
 
 .buttons button{
-    width: 200px;
+    height: 65px;
     border: none;
     border-radius: 10px;
 }
 
 .buttons img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
+    width: auto;
 }
 
 .buttons .googleplay{
