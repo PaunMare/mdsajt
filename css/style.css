@@ -50,11 +50,14 @@ body{
 
 .buttons button{
     width: 200px;
+    border: none;
+    border-radius: 10px;
 }
 
 .buttons img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .buttons .googleplay{
