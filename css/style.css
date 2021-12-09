@@ -49,10 +49,26 @@ body{
 }
 
 .buttons button{
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    padding: 0px;
+    width: 200px;
+}
+
+.buttons img{
+    width: 100%;
+    height: auto;
+}
+
+.buttons .googleplay{
+    content: url('../img/Google.png');
+}
+
+.buttons .playstore{
+    content: url('../img/App.png');
+}
+
+.buttons .youtube{
+    height: 65px;
+    width: auto;
+    content: url('../img/YT.png');
 }
 
 .aboutus{
