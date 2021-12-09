@@ -48,15 +48,16 @@ body{
             justify-content: center;
 }
 
-.buttons button{
-    height: 65px;
+.buttons button {
+    width: 200px;
+    padding: 0;
     border: none;
-    border-radius: 10px;
+    background: none;
 }
 
 .buttons img{
-    height: 100%;
-    width: auto;
+    width:  100%;
+    height:  auto;
 }
 
 .buttons .googleplay{
@@ -68,8 +69,6 @@ body{
 }
 
 .buttons .youtube{
-    height: 65px;
-    width: auto;
     content: url('../img/YT.png');
 }
 
