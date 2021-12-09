@@ -68,7 +68,7 @@ body{
     content: url('../img/App.png');
 }
 
-.buttons #ytbtn{
+.buttons .ytbtn{
     width: 150px;
 }
 
@@ -76,6 +76,10 @@ body{
     content: url('../img/YT.png');
 }
 
+
+.buttons .p{
+    text-align: unset;
+}
 .aboutus{
     margin-top: 50px;
     background: url('../img/About_Us.png') no-repeat;
