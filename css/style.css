@@ -48,6 +48,12 @@ body{
             justify-content: center;
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
 .img-slider .slide2 #ytbtn1{
     margin-left: 40px;
 }

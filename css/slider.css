@@ -121,6 +121,11 @@
   text-shadow: 2px 2px 5px black;
 }
 
+.img-slider .slide .info .buttons{
+  position: absolute;
+  top: 400px;
+}
+
 .slide .info ul li{
   list-style: disc;
   color: white;
