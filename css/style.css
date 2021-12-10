@@ -58,29 +58,7 @@ body{
 .img-slider .slide1 #span1{
     margin-left: 8px;
 }
-.img-slider .slide2 #ytbtn1{
-    margin-left: 40px;
-}
 
-.img-slider .slide2 #ytbtn2{
-    margin-left: 80px;
-}
-
-.img-slider .slide2 #span1{
-
-}
-
-.img-slider .slide2 #span2{
-    margin-left: 30px;
-}
-
-.img-slider .slide3 #ytbtn{
-    margin-right: 130px;
-}
-
-.img-slider .slide3 #span1{
-    margin-right: 130px;
-}
 .buttons button {
     width: 170px;
     padding: 0;
