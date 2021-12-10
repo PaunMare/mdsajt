@@ -26,7 +26,7 @@
 
 .img-slider .slide.active{
   clip-path: inset(0 0 0 0% round 0% 0% 0% 0%);
-  transition: .2s;
+  transition: .4s;
   transition-property: clip-path;
 }
 
