@@ -129,10 +129,11 @@
 .slide .info ul li{
   list-style: disc;
   color: white;
-  margin-left: 25px;
+  margin-left: 27px;
 }
-.slide .info ul li ul{
-  padding-left: 25px;
+
+.slide .info ul .inner{
+  margin-left: 20px;
 }
 
 .img-slider .slide .info p{
@@ -182,6 +183,10 @@
       font-size: 18px;
       margin-top: 150px;
       line-height: 25px;
+    }
+
+    .img-slider .slide .info .buttons{
+      top: 320px;
     }
 }
 

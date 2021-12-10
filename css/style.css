@@ -2,6 +2,7 @@ body{
     background: rgb(115,30,74);
     background: linear-gradient(180deg, rgba(115,30,74,1) 0%, rgba(24,20,34,1) 100%);
     font-family: 'Alatsi', sans-serif;
+    letter-spacing: 1px;
 }
 
 .naslov{
@@ -54,6 +55,13 @@ body{
     text-align: center;
 }
 
+.buttons .row-2{
+    padding-left: 7px;
+}
+
+.buttons .row-1{
+    padding-left: 10px;
+}
 
 .img-slider .slide1 #span1{
     margin-left: 8px;
@@ -180,11 +188,6 @@ body{
     .naslov{
          padding-bottom: 10px;
         font-size: 40px;
-    }
-    
-
-    .img-slider .slide1 img{
-        display: none;
     }
 
     .img-slider .slide1{
