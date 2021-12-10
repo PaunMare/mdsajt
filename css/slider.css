@@ -36,8 +36,12 @@
   border-radius: 5px;
 }
 
+.img-slider .slide .info .info-text{
+  width: 500px;
+}
+
 .img-slider .slide1{
-  background: url('../img/Mare_Sajt.png') no-repeat;
+  background: url('../img/Mare_Sajt2.png') no-repeat;
   background-attachment: local; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,7 +52,7 @@
 }
 
 .img-slider .slide2{
-  background: url('../img/Mare_Sajt.png') no-repeat;
+  background: url('../img/Mare_Sajt2.png') no-repeat;
   background-attachment: local; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -116,10 +120,10 @@
 .img-slider .slide .info{
   position: absolute;
   top: 0;
-  padding: 15px 30px;
+  padding: 40px 30px;
   font-size: 20px;
   margin-top: 240px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 .img-slider .slide .info .buttons{
