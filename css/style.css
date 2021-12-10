@@ -48,11 +48,38 @@ body{
             justify-content: center;
 }
 
+.img-slider .slide2 #ytbtn1{
+    margin-left: 40px;
+}
+
+.img-slider .slide2 #ytbtn2{
+    margin-left: 80px;
+}
+
+.img-slider .slide2 #span1{
+
+}
+
+.img-slider .slide2 #span2{
+    margin-left: 30px;
+}
+
+.img-slider .slide3 #ytbtn{
+    margin-right: 130px;
+}
+
+.img-slider .slide3 #span1{
+    margin-right: 130px;
+}
 .buttons button {
-    width: 200px;
+    width: 170px;
     padding: 0;
     border: none;
     background: none;
+}
+
+.buttons span{
+    color: white;
 }
 
 .buttons img{
@@ -69,7 +96,7 @@ body{
 }
 
 .buttons .ytbtn{
-    width: 150px;
+    width: 100px;
 }
 
 .buttons .youtube{
@@ -151,6 +178,15 @@ body{
     width: 150px;
     height: 75px;
 }
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+
 @media screen and (max-width:500px){
 
     .naslov{
@@ -178,10 +214,6 @@ body{
         font-size: 13px;
     }
 
-    .img-slider .slide2 img{
-        display: none;
-    }
-
     .img-slider .slide2{
         background: url('../img/WarEden_M.png') no-repeat;
         background-attachment: local; 
@@ -195,9 +227,6 @@ body{
 
     .img-slider .slide2 .info li{
         font-size: 13px;
-    }
-    .img-slider .slide3 img{
-        display: none;
     }
 
     .img-slider .slide3{
@@ -214,9 +243,6 @@ body{
     .img-slider .slide3 .info li{
         font-size: 13px;
     }
-    .img-slider .slide4 img{
-        display: none;
-    }
 
     .img-slider .slide4{
         background: url('../img/WarEden_M.png') no-repeat;
@@ -231,9 +257,6 @@ body{
 
     .img-slider .slide4 .info li{
         font-size: 13px;
-    }
-    .img-slider .slide5 img{
-        display: none;
     }
 
     .img-slider .slide5{
@@ -250,9 +273,6 @@ body{
     .img-slider .slide5 .info li{
         font-size: 13px;
     }
-    .img-slider .slide6 img{
-        display: none;
-    }
 
     .img-slider .slide6{
         background: url('../img/WarEden_M.png') no-repeat;
@@ -267,10 +287,6 @@ body{
 
     .img-slider .slide6 .info li{
         font-size: 13px;
-    }
-
-    .img-slider .slide7 img{
-        display: none;
     }
 
     .img-slider .slide7{
