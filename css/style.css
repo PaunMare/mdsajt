@@ -1,7 +1,7 @@
 body{
     background: rgb(115,30,74);
     background: linear-gradient(180deg, rgba(115,30,74,1) 0%, rgba(24,20,34,1) 100%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Alatsi', sans-serif;
 }
 
 .naslov{
@@ -54,6 +54,10 @@ body{
     text-align: center;
 }
 
+
+.img-slider .slide1 #span1{
+    margin-left: 8px;
+}
 .img-slider .slide2 #ytbtn1{
     margin-left: 40px;
 }

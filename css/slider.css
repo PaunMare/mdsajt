@@ -129,10 +129,10 @@
 .slide .info ul li{
   list-style: disc;
   color: white;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .slide .info ul li ul{
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .img-slider .slide .info p{
