@@ -41,6 +41,9 @@ body{
     padding-left: 7px;
 }
 
+.buttons .row-1 .acko{
+    margin-top: -3px;
+}
 .buttons .row-1{
     padding-left: 10px;
 }
