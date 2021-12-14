@@ -21,12 +21,12 @@
   z-index: 1;
   position: absolute;
   width: 100%;
-  clip-path: inset(0 0 0 100% round 0% 0% 0% 0%);
+  clip-path: polygon(0% 0%, 0 0, 0 50%, 0 100%, 0% 100%);
 }
 
 .img-slider .slide.active{
-  clip-path: inset(0 0 0 0% round 0% 0% 0% 0%);
-  transition: .4s;
+  clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%);
+  transition: 0.5s;
   transition-property: clip-path;
 }
 
@@ -225,7 +225,11 @@
 @media (max-width: 500px){
   .img-slider{
     width: 300px;
-    height: 500px;
+    height: 550px;
+  }
+
+  .img-slider .slide .info .info-text{
+    width: 280px;
   }
 
   .img-slider .slide .info{
@@ -250,13 +254,17 @@
   .img-slider .slide .info{
     position: absolute;
     top: 0;
-    margin-top: 285px;
+    margin-top: 300px;
   }
 
   .img-slider .navigation .btn{
     margin-bottom: 0;
   }
 
+  .img-slider .slide .info .buttons{
+    top: 155px;
+  }
+  
 }
 
       

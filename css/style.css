@@ -174,12 +174,54 @@ body{
 @media screen and (max-width:500px){
 
     .naslov{
-         padding-bottom: 10px;
+        padding-bottom: 10px;
         font-size: 40px;
     }
 
+    .buttons .row-2{
+        padding-left: unset;
+        margin-left: 45px;
+    }
+    
+    .buttons .row-1 .btnspec{
+        margin-left: unset;
+    }
+
+    .buttons .row-1 .acko{
+        margin-top: -3px;
+    }
+    .buttons .row-1{
+        padding-left: unset;
+    }
+    .buttons .row-2-spec{
+        margin-left: 70px;
+    }
+    
+    .buttons button {
+        width: 90px;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .buttons .solorow{
+        margin-left: 115px;
+        padding-left: unset;
+    }
+
+    .buttons .ytbtn{
+        width: 50px;
+    }
+    
+    .buttons span{
+        color: white;
+        display: inline-block;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
     .img-slider .slide1{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -190,11 +232,11 @@ body{
     }
 
     .img-slider .slide1 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide2{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -205,11 +247,11 @@ body{
     }
 
     .img-slider .slide2 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide3{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -220,11 +262,11 @@ body{
     }
 
     .img-slider .slide3 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide4{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -235,11 +277,11 @@ body{
     }
 
     .img-slider .slide4 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide5{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -250,11 +292,11 @@ body{
     }
 
     .img-slider .slide5 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide6{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -265,11 +307,11 @@ body{
     }
 
     .img-slider .slide6 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .img-slider .slide7{
-        background: url('../img/WarEden_M.png') no-repeat;
+        background: url('../img/900x1650.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -280,6 +322,6 @@ body{
     }
 
     .img-slider .slide7 .info li{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
