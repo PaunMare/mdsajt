@@ -43,7 +43,7 @@
     z-index: 999;
     text-decoration: none;
   }
-  nav a.active,nav a:hover{
+  nav a.activelink,nav a:hover{
     background: #731e4a;
     transition: .5s;
   }

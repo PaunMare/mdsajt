@@ -79,6 +79,11 @@ body{
     height:  auto;
 }
 
+.buttons .mint{
+    content: url('../img/mint.png');
+    margin-left: 5px;
+}
+
 .buttons .googleplay{
     content: url('../img/Google.png');
 }
@@ -292,6 +297,21 @@ body{
         display: inline-block;
         font-size: 10px;
         line-height: 10px;
+    }
+
+    .img-slider .slide0{
+        background: url('../img/900x1650.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-slider .slide0 .info li{
+        font-size: 12px;
     }
 
     .img-slider .slide1{
