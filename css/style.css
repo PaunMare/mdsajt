@@ -1,6 +1,5 @@
 body{
-    background: rgb(115,30,74);
-    background: linear-gradient(180deg, rgba(115,30,74,1) 0%, rgba(24,20,34,1) 100%);
+    background: rgba(18,82,153,1);
     font-family: 'Alatsi', sans-serif;
     letter-spacing: 1px;
 }
@@ -8,10 +7,19 @@ body{
 .naslov{
     color: white;
     text-align: center;
-    padding-bottom: 30px;
     font-size: 80px;
     font-weight: bold;
+    text-shadow: rgb(1, 13, 29) 0px 3px 10px;
 }
+
+.motto{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    padding-bottom: 30px;
+    text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+}
+
 
 .video-wrapper {
     max-width: 100%;
@@ -20,7 +28,6 @@ body{
     position: relative;
     margin: auto;
     display: block;
-    padding-bottom: 30px;
     z-index: -2;
 }
 
@@ -57,6 +64,7 @@ body{
     padding: 0;
     border: none;
     background: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .buttons span{
@@ -91,8 +99,20 @@ body{
 .buttons .p{
     text-align: unset;
 }
+
+.slider-section{
+    padding-top: 20px;
+    background: url('../img/Bg.png') center top;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+}
 .aboutus{
-    margin-top: 50px;
     background: url('../img/About_Us.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
@@ -128,6 +148,60 @@ body{
     width: 150px;
     height: 75px;
 }
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #2f7acf 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(23, 31, 59, 0.3) 0 7px 13px -3px,rgba(23, 31, 59, 0.3);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.aboutus .dugme{
+    font-size: 30px;
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+    text-shadow: rgba(0, 0, 0) 0px -2px 2px;
+}
+
 .careers{
     background: url('../img/Careers.png') no-repeat  ;
     background-attachment: local; 
