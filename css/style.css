@@ -126,7 +126,6 @@ body{
     background-size: cover;
     width: 100%;
     height: 700px;
-
 }
 
 .aboutus #about-us-heading{
@@ -135,30 +134,20 @@ body{
     font-weight: bold;
     margin-left: 70%;
     padding-bottom: 0;
-    padding-left: 190px;
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
 .aboutus .text{
     margin-top: 50px;
     padding-top: 0;
-    text-align: right;
+    text-align: left;
     width: 500px;
-    margin-left: 75%;
-    transform:translateX(-150px);
+    margin-left: 70%;
     font-size: 28px;
     color:white;
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
-/* CSS */
-
-
-.aboutus .abtn{
-    margin-left: 330px;
-}
-
-/* CSS */
 .button-83 {
   appearance: button;
   background-color: transparent;
