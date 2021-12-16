@@ -131,13 +131,12 @@ body{
 
 .aboutus #about-us-heading{
     font-size: 60px;
-    background: -webkit-linear-gradient(left,#eee 20%, rgb(105, 182, 233) 60%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-weight: bold;
     margin-left: 70%;
     padding-bottom: 0;
     padding-left: 90px;
+    text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
 .aboutus .text{
@@ -156,7 +155,7 @@ body{
 
 
 .aboutus .abtn{
-    transform: translateX(200px);
+    margin-left: 220px;
 }
 
 /* CSS */
@@ -171,7 +170,7 @@ body{
   column-gap: 1rem;
   cursor: pointer;
   display: flex;
-  font-size: 100%;
+  font-size: 90%;
   font-weight: 700;
   line-height: 24px;
   margin: 0;
@@ -208,22 +207,25 @@ body{
 }
 
 .careers #careers-heading{
-    font-size: 40px;
-    background: -webkit-linear-gradient(left,rgb(226, 133, 70) 10%, rgb(221, 219, 217) 15%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-left: 10%;
-    padding-top: 40px;
+    font-size: 60px;
+    color: white;
     font-weight: bold;
+    padding-bottom: 0;
+    padding-left: 90px;
+    padding-top: 30px;
+    text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
-.careers #ctext{
+.careers .text{
+    margin-top: 50px;
+    padding-top: 0;
+    padding-left: 90px;
+    text-align: left;
+    width: 400px;
+    font-size: 28px;
     color:white;
-    width: 30%;
-    text-align: center;
-    margin-top:50px;
+    text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
-
 
 @media screen 
   and (min-device-width: 1200px) 
