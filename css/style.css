@@ -135,7 +135,7 @@ body{
     font-weight: bold;
     margin-left: 70%;
     padding-bottom: 0;
-    padding-left: 90px;
+    padding-left: 190px;
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
@@ -143,7 +143,7 @@ body{
     margin-top: 50px;
     padding-top: 0;
     text-align: right;
-    width: 400px;
+    width: 500px;
     margin-left: 75%;
     transform:translateX(-150px);
     font-size: 28px;
@@ -155,7 +155,7 @@ body{
 
 
 .aboutus .abtn{
-    margin-left: 220px;
+    margin-left: 330px;
 }
 
 /* CSS */
@@ -211,15 +211,15 @@ body{
     color: white;
     font-weight: bold;
     padding-bottom: 0;
-    padding-left: 90px;
-    padding-top: 30px;
+    padding-left: 150px;
+    padding-top: 160px;
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
 .careers .text{
     margin-top: 50px;
     padding-top: 0;
-    padding-left: 90px;
+    padding-left: 150px;
     text-align: left;
     width: 400px;
     font-size: 28px;
