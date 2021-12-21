@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
   }
-  body{
-    font-family: montserrat;
-  }
   nav{
     background: #000;
     height: 80px;
