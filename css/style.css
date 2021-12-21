@@ -267,25 +267,34 @@ body{
     }
 }
 
-@media screen and (max-width:1099px)
-and (min-width:800px){
-
+@media screen and (max-width: 1199px)
+and (min-width:800px) {
     .aboutus{
-        background: url('../img/About_Us_1600.png') no-repeat center center;
+        background: url('../img/About_Us_800.png') no-repeat center center;
         background-attachment: local;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        height: 600px;
     }
 
     .careers{
-        background: url('../img/Careers_1600.png') no-repeat  center center;
+        background: url('../img/Careers_800.png') no-repeat  center center;
         background-attachment: local;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1099px)
+and (min-width:800px){
+
+    .slider-section{
+        background: url('../img/Bg_1000.png') center top;
     }
 
     .aboutus #about-us-heading{
