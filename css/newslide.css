@@ -99,7 +99,7 @@
 }
 
 .slide1 .buttons{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .slide2{
@@ -115,7 +115,7 @@
 
 .slide2 .buttons{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 23px;
 }
 
 .slide2 .buttons .row-1{
@@ -134,7 +134,7 @@
 }
 
 .slide3 .buttons{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .slide4{
@@ -149,7 +149,16 @@
 }
 
 .slide4 .buttons{
-    margin-left: 20px;
+    margin-left: 25px;
+}
+
+.slide5 .carousel-caption {
+    left: unset;
+    left: 70px;
+    bottom: unset;
+    top: 220px;
+    text-shadow: 2px 2px 2px black;
+    width: 500px;
 }
 
 .slide5{
@@ -165,7 +174,7 @@
 
 .slide5 .buttons{
     padding-top: 0px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .slide6{
@@ -191,5 +200,5 @@
 }
 
 .slide7 .buttons{
-    margin-left: 10px;
+    margin-left: 13px;
 }

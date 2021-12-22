@@ -90,6 +90,7 @@ body{
 
 .buttons .googleplay{
     content: url('../img/Google.png');
+    padding-bottom: 5px;
 }
 
 .buttons .playstore{
@@ -102,6 +103,7 @@ body{
 
 .buttons .youtube{
     content: url('../img/YT.png');
+    padding-bottom: 3px;
 }
 
 
