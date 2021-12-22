@@ -4,6 +4,10 @@ body{
     letter-spacing: 1px;
 }
 
+.video-section{
+    padding-top: 70px;
+}
+
 .naslov{
     color: white;
     text-align: center;
@@ -329,6 +333,10 @@ and (min-width:800px){
 
 @media screen and (max-width:799px){
 
+    .video-section{
+        padding-top: 50px;
+    }
+    
     .slider-section{
         background: url('../img/Bg_M.png') center top;
     }
