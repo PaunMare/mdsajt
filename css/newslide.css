@@ -12,6 +12,10 @@
     border-radius: 5px;
 }
 
+.carousel-caption ul ul{
+    list-style: disc;
+}
+
 .carousel-control-prev{
     padding-right: 30px;
     width: 7%;
@@ -66,7 +70,7 @@
 
 .carousel-caption .buttons{
     padding-top: 100px;
-    width: 300px;
+    width: 250px;
 }
 
 .slide0{
@@ -80,6 +84,9 @@
     height: 100%;
 }
 
+.slide0 .buttons{
+    margin-left: 15px;
+}
 .slide1{
     background: url('../img/Mare_Sajt2.png') no-repeat;
     background-attachment: local; 
@@ -89,6 +96,10 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+.slide1 .buttons{
+    margin-left: 20px;
 }
 
 .slide2{
@@ -102,6 +113,15 @@
     height: 100%;
 }
 
+.slide2 .buttons{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.slide2 .buttons .row-1{
+    padding-left: 0;
+}
+
 .slide3{
     background: url('../img/Mare_Sajt2.png') no-repeat;
     background-attachment: local; 
@@ -111,6 +131,10 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+.slide3 .buttons{
+    margin-left: 20px;
 }
 
 .slide4{
@@ -124,6 +148,10 @@
     height: 100%;
 }
 
+.slide4 .buttons{
+    margin-left: 20px;
+}
+
 .slide5{
     background: url('../img/Mare_Sajt2.png') no-repeat;
     background-attachment: local; 
@@ -133,6 +161,11 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+.slide5 .buttons{
+    padding-top: 0px;
+    margin-left: 10px;
 }
 
 .slide6{
@@ -155,4 +188,8 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+.slide7 .buttons{
+    margin-left: 10px;
 }
