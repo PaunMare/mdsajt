@@ -358,8 +358,76 @@ and (min-height:600px){
     }
     
     .carousel-caption .slider-text{
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .buttons button {
+        width: 120px;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .buttons .ytbtn{
+        width: 65px;
+    }
+    
+    .buttons span{
+        color: white;
+        display: inline-block;
+        font-size: 13px;
+        line-height: 13px;
+        padding-top: 5px;
+    }
+
+    .slider-text .visak{
+        visibility: hidden;
+    }
+
+    .slide0 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide1 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide2 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide2 .buttons{
+        margin-left: 6px;
+    }
+
+
+    .slide3 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide4 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide5 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide5 .buttons{
+        margin-left: 0px;
+    }
+
+    .slide6 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide7 .carousel-caption{
+        width: 350px;
+    }
+
+    .slide7 .buttons{
+        margin-left: 0px;
     }
 
     .slide0{
