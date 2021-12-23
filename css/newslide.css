@@ -79,7 +79,7 @@
 }
 
 .slide0{
-    background: url('../img/Mare_Sajt.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -93,7 +93,7 @@
     margin-left: 15px;
 }
 .slide1{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,7 +108,7 @@
 }
 
 .slide2{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -132,7 +132,7 @@
 }
 
 .slide3{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -147,7 +147,7 @@
 }
 
 .slide4{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -166,7 +166,7 @@
 }
 
 .slide5{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -181,7 +181,7 @@
 }
 
 .slide6{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -192,7 +192,7 @@
 }
 
 .slide7{
-    background: url('../img/Mare_Sajt2.png') no-repeat;
+    background: url('../img/1500x800_1.png') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -244,6 +244,86 @@
         font-size: 16px;
         line-height: 20px;
     }
+    .slide0{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide1{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide2{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide3{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide4{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide5{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide6{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide7{
+        background: url('../img/1100x600_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width:1099px)
@@ -281,11 +361,98 @@ and (min-height:600px){
         font-size: 14px;
         line-height: 15px;
     }
+
+    .slide0{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide1{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide2{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide3{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide4{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide5{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide6{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide7{
+        background: url('../img/800x435_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 @media (max-width: 900px)
 and (max-height: 500px)
 and (orientation: landscape){
+
+    .carousel-indicators{
+        visibility: hidden;
+    }
+
     #myCarousel{
         width: 550px;
         height: 300px;
@@ -331,19 +498,21 @@ and (orientation: landscape){
 
     .carousel-caption{
         left: unset;
-        left: 15px;
+        left: 10px;
         bottom: unset;
         top: 70px;
         text-shadow: 2px 2px 2px black;
     }
     
     .carousel-caption .slider-text{
-        font-size: 11px;
-        line-height: 12px;
+        font-size: 10px;
+        line-height: 11px;
     }
 
     .carousel-caption .buttons{
-        top: 130px;
+        top: 170px;
+        font-size: 10px;
+        line-height: 11px;
     }
 
     .buttons button {
@@ -351,11 +520,6 @@ and (orientation: landscape){
         padding: 0;
         border: none;
         background: none;
-    }
-
-    .buttons .solorow{
-        margin-left: 115px;
-        padding-left: unset;
     }
 
     .buttons .ytbtn{
@@ -369,37 +533,174 @@ and (orientation: landscape){
         line-height: 9px;
     }
 
+    .buttons .mint{
+        margin-left: 0px;
+    }
+
+    .slide0 .buttons{
+        margin-left: 0px;
+    }
+
     .slide0 .carousel-caption{
         width: 230px;
+    }
+
+    .slide1 .buttons{
+        margin-left: 0px;
+    }
+
+    .slide1 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 40px;
     }
 
     .slide1 .carousel-caption{
         width: 230px;
     }
 
+    .slide2 .buttons{
+        margin-left: 0px;
+    }
+
+    .slide2 .buttons .row-1{
+        margin-right: 50px;
+    }
+
     .slide2 .carousel-caption{
         width: 230px;
+    }
+
+    .slide3 .buttons{
+        margin-left: 0px;
+    }
+
+    .slide3 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 40px;
     }
 
     .slide3 .carousel-caption{
         width: 230px;
     }
 
+    .slide4 .buttons{
+        margin-left: 0px;
+    }
+
+    .slide4 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 40px;
+    }
+
     .slide4 .carousel-caption{
         width: 230px;
     }
 
+    .slide5 .solorow{
+        margin-right: 55px;
+    }    
+
     .slide5 .carousel-caption{
-        width: 230px;
+        width: 250px;
     }
 
     .slide6 .carousel-caption{
         width: 230px;
     }
+    
+    .slide7 .solorow{
+        margin-right: 55px;
+    }    
 
     .slide7 .carousel-caption{
-        width: 230px;
+        width: 220px;
     }
+
+    .carousel-caption .slider-text .visak{
+        visibility: hidden;
+    }
+
+    .slide0{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide1{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide2{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide3{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide4{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide5{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide6{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .slide7{
+        background: url('../img/1650x900_1.png') no-repeat;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 
@@ -486,7 +787,7 @@ and (orientation: portrait){
     }
 
     .slide0{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -514,7 +815,7 @@ and (orientation: portrait){
         display: block;
     }
     .slide1{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -542,7 +843,7 @@ and (orientation: portrait){
     }
 
     .slide2{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -569,7 +870,7 @@ and (orientation: portrait){
     }
 
     .slide3{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -597,7 +898,7 @@ and (orientation: portrait){
     }
 
     .slide4{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -625,7 +926,7 @@ and (orientation: portrait){
     }
 
     .slide5{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -644,7 +945,7 @@ and (orientation: portrait){
     }
 
     .slide6{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -663,7 +964,7 @@ and (orientation: portrait){
     }
 
     .slide7{
-        background: url('../img/900x1650.png') no-repeat;
+        background: url('../img/900x1650_1.png') no-repeat;
         background-attachment: local; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
