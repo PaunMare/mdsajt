@@ -11,6 +11,8 @@
     list-style: none;
     z-index: 999;
     position: fixed;
+    font-family: 'Alatsi', sans-serif;
+    letter-spacing: unset;
   }
   label.logo{
     color: white;
@@ -50,6 +52,11 @@
   nav a.activelink,nav a:hover{
     background: #731e4a;
     transition: .5s;
+  }
+
+  nav .logo a:hover{
+    background: unset;
+    transition: unset;
   }
   .checkbtn{
     font-size: 30px;
@@ -115,6 +122,7 @@
       left: -100%;
       text-align: center;
       transition: all .5s;
+      padding-left: 0px;
     }
 
     nav ul li{
