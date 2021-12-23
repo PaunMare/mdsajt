@@ -330,7 +330,7 @@ and (min-width:800px){
 
     .carousel-caption{
         left: unset;
-        left: 10px;
+        left: 0px;
         bottom: unset;
         top: 270px;
         text-shadow: 2px 2px 2px black;
