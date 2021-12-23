@@ -147,6 +147,10 @@ body{
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
 }
 
+.aboutus a, .careers a{
+    text-decoration: none;
+}
+
 .aboutus .text{
     margin-top: 50px;
     padding-top: 0;
@@ -299,7 +303,8 @@ and (min-width:800px) {
 }
 
 @media screen and (max-width:1099px)
-and (min-width:800px){
+and (min-width:800px)
+and (min-height:600px){
 
     .slider-section{
         background: url('../img/Bg_1000.png') center top;
@@ -335,7 +340,81 @@ and (min-width:800px){
     
 }
 
-@media screen and (max-width:799px){
+@media (max-width: 900px)
+and (max-height: 500px)
+and (orientation: landscape){
+    
+    .video-section{
+        padding-top: 50px;
+    }
+
+    .aboutus{
+        background: url('../img/About_Us_800.png') no-repeat center center;
+        background-attachment: local;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .aboutus #about-us-heading{
+        padding-top: 80px;
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        margin-left: 50%;
+        padding-left: 4px;
+        padding-bottom: 0;
+        text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+    }
+    
+    .aboutus .text{
+        margin-top: 50px;
+        padding-top: 0;
+        text-align: left;
+        width: 300px;
+        margin-left: 50%;
+        font-size: 17px;
+        color:white;
+        text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+    }
+    
+
+    .careers{
+        background: url('../img/Careers_800.png') no-repeat  center center;
+        background-attachment: local;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .careers #careers-heading{
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 0;
+        padding-left: 50px;
+        padding-top: 120px;
+        text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+    }
+    
+    .careers .text{
+        margin-top: 50px;
+        padding-top: 0;
+        padding-left: 50px;
+        text-align: left;
+        width: 300px;
+        font-size: 17px;
+        color:white;
+        text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+    }
+}
+
+@media (max-width: 799px)
+and (orientation: portrait){
 
     .video-section{
         padding-top: 50px;
