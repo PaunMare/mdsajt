@@ -299,36 +299,40 @@ and (min-width:800px){
         max-width: 300px;
         max-height: 550px;
     }
+    
+    .carousel-caption .slider-text .visak{
+        visibility: hidden;
+    }
 
     .carousel-caption .buttons{
-        top: 180px;
+        top: 178px;
     }
 
     .carousel-control-prev{
         padding-right: 10px;
-        width: 10%;
+        width: 15%;
     }
     
     .carousel-control-next{
         padding-left: 10px;
-        width: 10%;
+        width: 15%;
     }
     
     .carousel-control-prev-icon{
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
     }
     
     .carousel-control-next-icon{
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     .carousel-caption{
         left: unset;
         left: 10px;
         bottom: unset;
-        top: 280px;
+        top: 270px;
         text-shadow: 2px 2px 2px black;
     }
     
@@ -380,7 +384,13 @@ and (min-width:800px){
     }
 
     .buttons .mint{
-        margin-left: 25px;
+        margin-left: 7px;
+    }
+
+    .slide0 .buttons{
+        margin-left: 0px;
+        margin: auto;
+        display: block;
     }
     .slide1{
         background: url('../img/900x1650.png') no-repeat;
@@ -391,6 +401,15 @@ and (min-width:800px){
         background-size: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .slide1 .buttons{
+        margin-left: 30px;
+    }
+
+    .slide1 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 35px;
     }
 
     .slide1 .carousel-caption{
@@ -412,6 +431,14 @@ and (min-width:800px){
         height: 100%;
     }
 
+    .slide2 .buttons{
+        margin-left: 40px;
+    }
+
+    .slide2 .buttons .row-1{
+        margin-right: 0px;
+    }
+
     .slide2 .carousel-caption{
         width: 280px;
     }
@@ -431,6 +458,15 @@ and (min-width:800px){
         height: 100%;
     }
 
+    .slide3 .buttons{
+        margin-left: 30px;
+    }
+
+    .slide3 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 35px;
+    }
+
     .slide3 .carousel-caption{
         width: 280px;
     }
@@ -448,6 +484,15 @@ and (min-width:800px){
         background-size: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .slide4 .buttons{
+        margin-left: 30px;
+    }
+
+    .slide4 .buttons .row-1{
+        padding-left: 0px;
+        margin-right: 35px;
     }
 
     .slide4 .carousel-caption{
@@ -514,5 +559,10 @@ and (min-width:800px){
     .slide7 li{
         font-size: 12px;
     }
+
+    .slide7 .buttons{
+        margin-left: 0px;
+    }
+    
 
   }
