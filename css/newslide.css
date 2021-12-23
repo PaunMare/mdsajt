@@ -233,7 +233,7 @@
 
     .carousel-caption{
         left: unset;
-        left: 50px;
+        left: 33px;
         bottom: unset;
         top: 180px;
         text-shadow: 2px 2px 2px black;
@@ -350,7 +350,7 @@ and (min-height:600px){
 
     .carousel-caption{
         left: unset;
-        left: 35px;
+        left: 20px;
         bottom: unset;
         top: 130px;
         text-shadow: 2px 2px 2px black;
@@ -498,7 +498,7 @@ and (orientation: landscape){
 
     .carousel-caption{
         left: unset;
-        left: 10px;
+        left: 3px;
         bottom: unset;
         top: 70px;
         text-shadow: 2px 2px 2px black;
@@ -534,7 +534,7 @@ and (orientation: landscape){
     }
 
     .buttons .mint{
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     .slide0 .buttons{
@@ -546,7 +546,7 @@ and (orientation: landscape){
     }
 
     .slide1 .buttons{
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     .slide1 .buttons .row-1{
@@ -559,11 +559,11 @@ and (orientation: landscape){
     }
 
     .slide2 .buttons{
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .slide2 .buttons .row-1{
-        margin-right: 50px;
+        margin-right: 75px;
     }
 
     .slide2 .carousel-caption{
@@ -571,12 +571,12 @@ and (orientation: landscape){
     }
 
     .slide3 .buttons{
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     .slide3 .buttons .row-1{
         padding-left: 0px;
-        margin-right: 40px;
+        margin-right: 50px;
     }
 
     .slide3 .carousel-caption{
@@ -584,7 +584,7 @@ and (orientation: landscape){
     }
 
     .slide4 .buttons{
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     .slide4 .buttons .row-1{
@@ -597,7 +597,7 @@ and (orientation: landscape){
     }
 
     .slide5 .solorow{
-        margin-right: 55px;
+        margin-right: 56px;
     }    
 
     .slide5 .carousel-caption{
@@ -609,7 +609,7 @@ and (orientation: landscape){
     }
     
     .slide7 .solorow{
-        margin-right: 55px;
+        margin-right: 56px;
     }    
 
     .slide7 .carousel-caption{
@@ -806,7 +806,7 @@ and (orientation: portrait){
     }
 
     .buttons .mint{
-        margin-left: 7px;
+        margin-left: 15px;
     }
 
     .slide0 .buttons{
@@ -826,7 +826,7 @@ and (orientation: portrait){
     }
 
     .slide1 .buttons{
-        margin-left: 30px;
+        margin-left: 43px;
     }
 
     .slide1 .buttons .row-1{
@@ -854,7 +854,7 @@ and (orientation: portrait){
     }
 
     .slide2 .buttons{
-        margin-left: 40px;
+        margin-left: 45px;
     }
 
     .slide2 .buttons .row-1{
@@ -881,7 +881,7 @@ and (orientation: portrait){
     }
 
     .slide3 .buttons{
-        margin-left: 30px;
+        margin-left: 43px;
     }
 
     .slide3 .buttons .row-1{
@@ -909,7 +909,7 @@ and (orientation: portrait){
     }
 
     .slide4 .buttons{
-        margin-left: 30px;
+        margin-left: 43px;
     }
 
     .slide4 .buttons .row-1{
@@ -934,6 +934,10 @@ and (orientation: portrait){
         background-size: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .slide5 .solorow{
+        margin-left: 118px;
     }
 
     .slide5 .carousel-caption{
@@ -972,6 +976,10 @@ and (orientation: portrait){
         background-size: cover;
         width: 100%;
         height: 100%;
+    }
+
+    .slide7 .solorow{
+        margin-left: 131px;
     }
 
     .slide7 .carousel-caption{
