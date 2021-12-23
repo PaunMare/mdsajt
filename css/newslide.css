@@ -247,7 +247,8 @@
 }
 
 @media screen and (max-width:1099px)
-and (min-width:800px){
+and (min-width:800px)
+and (min-height:600px){
     #myCarousel{
         width: 800px;
         height: 435px;
@@ -282,8 +283,128 @@ and (min-width:800px){
     }
 }
 
+@media (max-width: 900px)
+and (max-height: 500px)
+and (orientation: landscape){
+    #myCarousel{
+        width: 550px;
+        height: 300px;
+    }
 
-@media (max-width: 799px){
+    .carousel-item{
+        width: 550px;
+        height: 300px;
+    }
+    
+    .container{
+        max-width: 550px;
+        max-height: 300px;
+    }
+
+    .carousel-caption .slider-text .visak{
+        visibility: hidden;
+    }
+
+    .carousel-caption .buttons{
+        top: 178px;
+    }
+
+    .carousel-control-prev{
+        padding-right: 10px;
+        width: 8%;
+    }
+    
+    .carousel-control-next{
+        padding-left: 10px;
+        width: 8%;
+    }
+    
+    .carousel-control-prev-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .carousel-control-next-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .carousel-caption{
+        left: unset;
+        left: 15px;
+        bottom: unset;
+        top: 70px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    .carousel-caption .slider-text{
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .carousel-caption .buttons{
+        top: 130px;
+    }
+
+    .buttons button {
+        width: 70px;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .buttons .solorow{
+        margin-left: 115px;
+        padding-left: unset;
+    }
+
+    .buttons .ytbtn{
+        width: 40px;
+    }
+    
+    .buttons span{
+        color: white;
+        display: inline-block;
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .slide0 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide1 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide2 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide3 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide4 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide5 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide6 .carousel-caption{
+        width: 230px;
+    }
+
+    .slide7 .carousel-caption{
+        width: 230px;
+    }
+}
+
+
+@media (max-width: 799px)
+and (orientation: portrait){
 
     #myCarousel{
         width: 300px;
