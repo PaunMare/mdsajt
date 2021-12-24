@@ -3,58 +3,177 @@
 }
 
 body{
-    background-color: turquoise;
+    background-color: white;
+}
+
+.top-visak{
+    padding-bottom: 70px;
+}
+
+.top-picture{
+    background: url('../img/AboutUs_Ilustracija.png') no-repeat center center;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.top-picture #slika{
+    width: 100%;
+    height: auto;
+    display: none;
 }
 
 .image-slider{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
+}
+
+.slider-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bottom-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 #myCarousel{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 1200px;
+    height: 700px;
     margin: 0px;
     background: #1D212B;
     margin: auto;
     display: block;
     padding: 0px;
+    border-radius: 5px;
     box-shadow: rgb(1, 13, 29) 0px 8px 25px, rgba(1, 13, 29, 0.23) 0px 6px 6px;
+    margin-bottom: 70px;
+}
+
+.carousel-item{
+    width: 100%;
+    height:100%;
     border-radius: 5px;
 }
 
 
+#myCarousel1{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0px;
+    background: #1D212B;
+    margin: auto;
+    display: block;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: rgb(1, 13, 29) 0px 8px 25px, rgba(1, 13, 29, 0.23) 0px 6px 6px;
+}
+
+#myCarousel1 .slide0{
+    background: url('../img/slajder21.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+
+#myCarousel1 .slide1{
+    background: url('../img/slajder22.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#myCarousel1 .slide2{
+    background: url('../img/slajder23.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#myCarousel1 .slide3{
+    background: url('../img/slajder24.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 .image-slider .slider-heading{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
-    text-shadow: rgb(1, 13, 29) 0px 3px 10px;
     margin-bottom: 0px;
 }
 
-.image-slider .slider-text, .image-slider .bottom-text{
+.slider-text{
     text-align: center;
-    font-size: 28px;
-    color: white;
+    font-size: 32px;
+    color: black;
     padding-bottom: 30px;
-    text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+}
+
+.bottom-text{
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    padding-bottom: 30px;
 }
 
 .image-slider .bottom-text{
     padding-top: 30px;
 }
 
+.image-slider a{
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 56px;
+    font-size: 20px;
+}
+
+.image-slider a:hover{
+    color:unset
+}
 
 .button-83 {
     appearance: button;
     background-color: transparent;
-    background-image: linear-gradient(to bottom, #fff, #f8eedb);
+    background-image: linear-gradient(to bottom, rgb(26, 96, 177), #0b3366);
     border: 0 solid #e5e7eb;
     border-radius: .5rem;
     box-sizing: border-box;
-    color: black;
+    color:white;
     font-family: 'Alatsi', sans-serif;
     column-gap: 1rem;
     cursor: pointer;
@@ -76,21 +195,224 @@ body{
   }
 
   .button-83:active {
-  background-color: #f3f4f6;
-  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
-  transform: translateY(0.125rem);
+    background-color: #f3f4f6;
+    box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+    transform: translateY(0.125rem);
 }
 
 .button-83:focus {
   box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
 
-.image-slider a{
-    text-decoration: none;
-    width: 130px;
-    height: 60px;
-}
-
 .image-slider .cbtn{
     text-align: center;
+}
+
+.middle-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+.bottom-text{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width:1400px)
+and (min-width:1100px){
+
+    .top-visak{
+        padding-bottom: 100px;
+    }
+
+    
+    .top-picture{
+        background: url('../img/1100_1400ilustracija.png') no-repeat center center;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+    .slider-text{
+        font-size: 30px;
+    }
+
+    .middle-text{
+        font-size: 23px;
+        line-height: 29px;
+    }
+    
+    .bottom-text{
+        font-size: 30px;
+    }
+
+    #myCarousel{
+        width: 800px;
+        height: 465px;
+    }
+    
+    #myCarousel1{
+        width: 500px;
+        height: 500px;
+    }
+    #myCarousel1 .slide0, #myCarousel1 .slide1, #myCarousel1 .slide2, #myCarousel1 .slide3{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:1099px)
+and (min-width:800px){
+    
+    .top-picture{
+        background: url('../img/800_1100ilustracija.png') no-repeat center center;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+    }
+
+
+    .slider-text{
+        font-size: 28px;
+    }
+
+    .middle-text{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .bottom-text{
+        font-size: 28px;
+    }
+
+    #myCarousel{
+        width: 600px;
+        height: 350px;
+    }
+    
+    #myCarousel1{
+        width: 400px;
+        height: 400px;
+    }
+
+    #myCarousel1 .slide0, #myCarousel1 .slide1, #myCarousel1 .slide2, #myCarousel1 .slide3{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width: 900px)
+and (max-height: 500px)
+and (orientation: landscape){
+    .top-picture{
+        background: unset;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    
+    .image-slider{
+        padding-top: 0px;
+    }
+
+    .top-picture #slika{
+        display: unset;
+    }
+
+    .slider-text .slider-heading{
+        font-size: 40px;
+    }
+
+    .slider-text{
+        font-size: 24px;
+    }
+
+    .middle-text{
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+    .bottom-text{
+        font-size: 24px;
+    }
+
+    #myCarousel{
+        width: 400px;
+        height: 175px;
+    }
+    
+    #myCarousel1{
+        width: 250px;
+        height: 250px;
+    }
+
+    #myCarousel1 .slide0, #myCarousel1 .slide1, #myCarousel1 .slide2, #myCarousel1 .slide3{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 799px)
+and (orientation: portrait){
+    .top-picture{
+        background: url('../img/AboutUs_Ilustracija.png') no-repeat center center;
+        background-attachment: local; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    
+    .top-picture #slika{
+        display: unset;
+    }
+
+    .image-slider .slider-heading{
+        font-size: 60px;
+    }
+
+    .slider-text{
+        font-size: 24px;
+    }
+
+    .middle-text{
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .bottom-text{
+        font-size: 24px;
+    }
+
+    #myCarousel{
+        width: 300px;
+        height: 175px;
+    }
+    
+    #myCarousel1{
+        width: 250px;
+        height: 250px;
+    }
+
+    #myCarousel1 .slide0, #myCarousel1 .slide1, #myCarousel1 .slide2, #myCarousel1 .slide3{
+        width: 250px;
+        height: 250px;
+    }
 }
