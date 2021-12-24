@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c6adf2c87.js" crossorigin="anonymous"></script>
+    <title>Miracle Dojo</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="../img/mdlogo.png" style=" height:90%;width: auto; padding-top: 5px;"></label>
+        <ul>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a class="activelink" href="#">About Us</a></li>
+          <li><a href="./">Careers</a></li>
+        </ul>
+    </nav>
+
+		<h4 class="sent-notification" style="padding-top: 100px;"></h4>
+
+		<form id="myForm" method="post" enctype="multipart/form-data">
+			<h2>Send an Email</h2>
+
+			<label>Name</label>
+			<input id="name" type="text" placeholder="Enter Name">
+			<br><br>
+
+			<label>Email</label>
+			<input id="email" type="text" placeholder="Enter Email">
+			<br><br>
+
+			<label>Subject</label>
+			<input id="subject" type="text" placeholder=" Enter Subject">
+			<br><br>
+
+			<p>Message</p>
+			<textarea id="body" rows="5" placeholder="Type Message"></textarea>
+			<br><br>
+
+            <p>CV</p>
+            <input name="file" type="file" id="file">
+            <br>
+            <br>
+
+			<button type="button" onclick="sendEmail()" value="Send An Email">Submit</button>
+		</form>
+
+	
+    <footer>
+        <img src="../img/mdlogo.png" style="width:80px; height:auto">
+        <ul class="list-footer">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyrights">&copy; 2021 Miracle Dojo</p>
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+        function sendEmail() {
+            var name = $("#name");
+            var email = $("#email");
+            var subject = $("#subject");
+            var body = $("#body");
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+                $.ajax({
+                   url: 'sendEmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                       name: name.val(),
+                       email: email.val(),
+                       subject: subject.val(),
+                       body: body.val()
+                   }, success: function (response) {
+                        $('#myForm')[0].reset();
+                        $('.sent-notification').text("Message Sent Successfully.");
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
+    
+</body>
+</html>
