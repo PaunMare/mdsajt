@@ -1,5 +1,5 @@
 body{
-    background: rgba(18,82,153,1);
+    background: rgba(3,26,57,1);
     font-family: 'Alatsi', sans-serif;
     letter-spacing: 1px;
 }
@@ -526,18 +526,18 @@ and (orientation: portrait){
         max-width: unset;
         width: unset;
         min-width: unset;
-        height: 360px;
+        height: 400px;
         width: 100%;
         overflow:hidden;
         display:block;
-        height: 360px;
+        height: 400px;
         z-index: -2;
     }
     
     
     .video-wrapper video {
-        height: 360px;
-        margin-left: calc(-320px + 50%);
-        width: 640px;
+        height: 400px;
+        margin-left: calc(-355px + 50%);
+        width: 710px;
     }
 }
