@@ -73,6 +73,11 @@
     z-index: 999;
   }
   @media (max-width: 952px){
+
+    .list-footer{
+      padding-left: 0rem;
+    }
+
     label.logo{
       font-size: 30px;
       padding-left: 10px;
@@ -136,5 +141,9 @@
 
     #check:checked ~ ul{
       left: 0;
+    }
+
+    .list-footer{
+      padding-left: 0rem;
     }
   }

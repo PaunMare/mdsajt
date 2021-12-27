@@ -62,6 +62,83 @@ body{
     margin-bottom: 70px;
 }
 
+#myCarousel .slide0{
+    background: url('../img/slajder11.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide1{
+    background: url('../img/slajder12.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide2{
+    background: url('../img/slajder13.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide3{
+    background: url('../img/slajder14.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide4{
+    background: url('../img/slajder15.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide5{
+    background: url('../img/slajder16.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
+#myCarousel .slide6{
+    background: url('../img/slajder17.png') no-repeat;
+    background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+}
+
 .carousel-item{
     width: 100%;
     height:100%;
@@ -257,6 +334,11 @@ and (min-width:1100px){
         width: 800px;
         height: 465px;
     }
+
+    #myCarousel .slide0, #myCarousel .slide1, #myCarousel .slide2, #myCarousel .slide3, #myCarousel .slide4, #myCarousel .slide5, #myCarousel .slide6 {
+        width: 800px;
+        height: 465px;
+    }
     
     #myCarousel1{
         width: 500px;
@@ -297,6 +379,11 @@ and (min-width:800px){
     }
 
     #myCarousel{
+        width: 600px;
+        height: 350px;
+    }
+
+    #myCarousel .slide0, #myCarousel .slide1, #myCarousel .slide2, #myCarousel .slide3, #myCarousel .slide4, #myCarousel .slide5, #myCarousel .slide6 {
         width: 600px;
         height: 350px;
     }
@@ -354,6 +441,11 @@ and (orientation: landscape){
         width: 400px;
         height: 175px;
     }
+
+    #myCarousel .slide0, #myCarousel .slide1, #myCarousel .slide2, #myCarousel .slide3, #myCarousel .slide4, #myCarousel .slide5, #myCarousel .slide6 {
+        width: 400px;
+        height: 175px;
+    }
     
     #myCarousel1{
         width: 250px;
@@ -402,6 +494,11 @@ and (orientation: portrait){
     }
 
     #myCarousel{
+        width: 300px;
+        height: 175px;
+    }
+
+    #myCarousel .slide0, #myCarousel .slide1, #myCarousel .slide2, #myCarousel .slide3, #myCarousel .slide4, #myCarousel .slide5, #myCarousel .slide6 {
         width: 300px;
         height: 175px;
     }
