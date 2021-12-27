@@ -1,7 +1,26 @@
 body{
     background: white;
     font-family: 'Alatsi', sans-serif;
-    height: 120vh;
+}
+
+.careers-text{
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.careers-text .heading{
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.careers-text .text{
+    font-size: 32px;
+    color: black;
+    padding-bottom: 30px;
 }
 
   .container {
