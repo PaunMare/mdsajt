@@ -120,3 +120,36 @@ box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0p
   margin-top: 10px;
   font-weight: bold;
 }
+
+@media (max-width: 799px)
+and (orientation: portrait){
+
+  .careers-text{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .careers-text .heading{
+      margin-top:30px;
+      color: black;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 30px;
+  }
+  
+  .careers-text .text{
+      font-size: 17px;
+      line-height: 20px;
+      padding-bottom: 20px;
+      color: black;
+  }
+
+  .card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
