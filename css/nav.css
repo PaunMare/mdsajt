@@ -37,13 +37,13 @@
   nav ul li{
     display: inline-block;
     line-height: 70px;
-    margin: 0 5px;
+    margin: 0 10px;
     z-index: 999;
   }
   nav ul li a{
     color: white;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 7px 20px;
     border-radius: 3px;
     text-transform: uppercase;
     z-index: 999;
@@ -51,6 +51,7 @@
   }
   nav a.activelink,nav a:hover{
     background: #731e4a;
+    color: #fff200;
     transition: .5s;
   }
 

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="./css/nav.css">
 
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
         </label>
-        <label class="logo"><img src="../img/mdlogo.png" style=" height:90%;width: auto; padding-top: 5px;"></label>
+        <label class="logo"><img src="./img/mdlogo.png" style=" height:90%;width: auto; padding-top: 5px;"></label>
         <ul>
           <li><a  href="../index.html">Home</a></li>
           <li><a class="activelink" href="#">About Us</a></li>
@@ -28,38 +28,58 @@
         </ul>
     </nav>
 
-		<h4 class="sent-notification" style="padding-top: 100px;"></h4>
+    <div class="upper">
+        <img  src="./img/About_Us.png">
+    </div>
 
-		<form id="myForm" method="post" enctype="multipart/form-data">
-			<h2>Send an Email</h2>
 
-			<label>Name</label>
-			<input id="name" type="text" placeholder="Enter Name">
-			<br><br>
+    <div class="contact-text">
+        <p class="heading">Backend Architecture and Game Server</p>
+        <p class="text">
+            Will be responsible for building the foundation for WarEden Backend services and later expanding it and scaling for millions of players.
+        </p>
+        <ul>Requirements:
+            <li>Advanced C/C++</li>
+            <li>Fluent in C#</li>
+            <li>Mastery of TCP & HTTP/S</li>
+            <li>Extensive networking experience</li>
+            <li>Prior development work on distributed systems and client/server architectures</li>
+            <li>Knowledge of network and server security issues</li>
+            <li>Database development experience</li>
+        </ul>
+        <ul>Pluses:
+            <li>Passion for writing software from scratch</li>
+            <li>Basic understanding of how gameplay loop works</li>
+            <li>Played World of Warcraft</li>
+        </ul>
+      <p class="text">
+        Interested?<br>
+        We are looking forward to hearing from you. We would give our best to respond to every job application and provide proper feedback.
+      </p>
+      </div>
 
-			<label>Email</label>
-			<input id="email" type="text" placeholder="Enter Email">
-			<br><br>
+   <div class="form-box">
+    <form id="myForm" method="post" enctype="multipart/form-data">
+        <h2>Send an Email</h2>
 
-			<label>Subject</label>
-			<input id="subject" type="text" placeholder=" Enter Subject">
-			<br><br>
+        <input id="name" type="text" placeholder="Enter Name" required>
+        <br><br>
 
-			<p>Message</p>
-			<textarea id="body" rows="5" placeholder="Type Message"></textarea>
-			<br><br>
+        <input id="email" type="text" placeholder="Enter Email" required>
+        <br><br>
 
-            <p>CV</p>
-            <input name="file" type="file" id="file">
-            <br>
-            <br>
+        <input id="subject" type="text" placeholder=" Enter Subject" required>
+        <br><br>
 
-			<button type="button" onclick="sendEmail()" value="Send An Email">Submit</button>
-		</form>
+        <input name="cv" type="text" id="cv"  placeholder="Link for CV" required>
+        <br>
+        <br>
 
-	
+        <button type="button"  onclick="sendEmail()" value="Send An Email">Submit</button>
+    </form>
+    </div>
     <footer>
-        <img src="../img/mdlogo.png" style="width:80px; height:auto">
+        <img src="./img/mdlogo.png" style="width:80px; height:auto">
         <ul class="list-footer">
             <li><a href="#">Home</a></li>
             <li><a href="#">Careers</a></li>
