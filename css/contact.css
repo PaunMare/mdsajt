@@ -154,7 +154,7 @@ form  input{
   }
   
   /* active state */
- form input:focus ~ label, form input:valid ~ label{
+ form input:focus ~ form label, form input:valid ~ form label{
 	top:-22px;
 	font-size:18px;
 	color:#e2593c;
@@ -172,22 +172,6 @@ form  input{
 	-moz-animation:inputHighlighter 0.3s ease;
 	animation:inputHighlighter 0.3s ease;
   }
-  
-  /* ANIMATIONS ================ */
-  @-webkit-keyframes inputHighlighter {
-	  from { background:#5264AE; }
-	to 	{ width:0; background:transparent; }
-  }
-  @-moz-keyframes inputHighlighter {
-	  from { background:#5264AE; }
-	to 	{ width:0; background:transparent; }
-  }
-  @keyframes inputHighlighter {
-	  from { background:#5264AE; }
-	to 	{ width:0; background:transparent; }
-  }
-
-
 
   @media screen 
   and (min-device-width: 1100px) 
