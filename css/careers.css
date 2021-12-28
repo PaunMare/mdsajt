@@ -122,6 +122,11 @@ box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0p
 @media (max-width: 799px)
 and (orientation: portrait){
 
+  .upper{
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
   .careers-text{
     text-align: center;
     padding-left: 5%;
