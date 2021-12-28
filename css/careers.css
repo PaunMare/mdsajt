@@ -32,7 +32,7 @@ body{
   background-color: transparent;
   background-image: linear-gradient(to bottom, rgb(100, 161, 231), #0b3366);
   border: 0 solid #e5e7eb;
-  border-radius: .5rem;
+  border-radius: 5px;
   box-sizing: border-box;
   color:white;
   font-family: 'Alatsi', sans-serif;
@@ -75,7 +75,7 @@ box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0p
   align-items: center;
   justify-content: center;
   margin: 2rem 0;
-  box-shadow: rgb(1, 13, 29) 0px 3px 5px, rgba(1, 13, 29, 0.23) 0px 3px 3px;
+  box-shadow: rgb(1, 13, 29) 0px 8px 25px, rgba(1, 13, 29, 0.23) 0px 6px 6px;
 }
 
 .card a{
@@ -103,8 +103,9 @@ box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0p
   position: relative;
   width: 320px;
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: rgb(1, 13, 29) 0px 3px 5px, rgba(1, 13, 29, 0.23) 0px 3px 3px;
+  border-radius: 5px;
+  border-width: 0px;
+  box-shadow: rgb(89, 90, 95) 0px 2px 15px;
   padding: 40px;
   margin:  15px 40px;
   display: flex;

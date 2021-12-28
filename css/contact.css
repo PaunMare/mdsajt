@@ -101,7 +101,12 @@ body{
 	height: 600px;
 	margin: auto;
 	display: block;
-	background: url('../img/Careers.png');
+	background: url('../img/Aplication_Bg.png') no-repeat left center;
+	background-attachment: local; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 form{
@@ -310,6 +315,7 @@ and (orientation: portrait){
 		margin-right: unset;
 		margin: auto;
 		display: block;
+		width: 290px;
 	}
 
 }
