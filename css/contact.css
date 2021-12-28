@@ -223,6 +223,7 @@ form  input{
 
 @media screen 
   and (max-device-width: 1099px) 
+  and (min-width:1001px)
   and (-webkit-min-device-pixel-ratio: 1) {
 	.upper .heading{
 		font-size: 35px;
