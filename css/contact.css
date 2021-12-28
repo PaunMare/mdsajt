@@ -252,7 +252,7 @@ form  input{
 	}	
 }
 
-@media (max-width: 799px)
+@media (max-width: 1000px)
 and (orientation: portrait){
 
 	.container{
