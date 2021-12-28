@@ -26,10 +26,6 @@ body{
 	padding-bottom: 30px;
 }
 
-form input:focus {
-	outline-offset: 0;
-  }
-
 .contact-text .text{
 	font-size: 25px;
 	padding-bottom: 30px;
@@ -157,6 +153,40 @@ form  input{
 	-webkit-transition:0.2s ease all;
   }
   
+  /* active state */
+ form input:focus ~ label, form input:valid ~ label{
+	top:-22px;
+	font-size:18px;
+	color:#e2593c;
+  }
+
+  form .asterix{
+	  position: absolute;
+	  top:-5px;
+	  right: -12px;
+  }
+  
+  /* active state */
+  form input:focus ~ .highlight {
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+
 
 
   @media screen 
@@ -289,7 +319,7 @@ and (orientation: portrait){
 		margin-right: unset;
 		margin: auto;
 		display: block;
-		width: 280px;
+		width: 90%;
 		padding-top: 10px;
 	}
 
