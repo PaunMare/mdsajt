@@ -26,6 +26,10 @@ body{
 	padding-bottom: 30px;
 }
 
+form input:focus {
+	outline-offset: 0;
+  }
+
 .contact-text .text{
 	font-size: 25px;
 	padding-bottom: 30px;
