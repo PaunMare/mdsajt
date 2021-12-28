@@ -155,9 +155,9 @@ form  input{
   
   /* active state */
  form input:focus ~ label, form input:valid ~ label{
-	top:-20px;
-	font-size:14px;
-	color:#5264AE;
+	top:-22px;
+	font-size:18px;
+	color:#e2593c;
   }
 
   form .asterix{
