@@ -112,7 +112,7 @@ body{
 form{
 	float: right;
 	width: 320px;
-	height: 550px;
+	height:100%;
 	margin-right: 100px;
 }
 
@@ -263,6 +263,19 @@ form  input{
 
 @media (max-width: 799px)
 and (orientation: portrait){
+
+	.container{
+		width: 90%;
+		height: 600px;
+		margin: auto;
+		display: block;
+		background: none;
+	}
+	
+	.granica{
+		background: black;
+	}
+
 	.upper{
 		padding-top: 70px;
 		padding-left: 5%;
@@ -315,7 +328,8 @@ and (orientation: portrait){
 		margin-right: unset;
 		margin: auto;
 		display: block;
-		width: 290px;
+		width: 280px;
+		padding-top: 10px;
 	}
 
 }

@@ -37,7 +37,7 @@
   nav ul li{
     display: inline-block;
     line-height: 70px;
-    margin: 0 10px;
+    margin: 0px;
     z-index: 999;
   }
   nav ul li a{

@@ -1,7 +1,6 @@
 body{
     background: rgba(3,26,57,1);
     font-family: 'Alatsi', sans-serif;
-    letter-spacing: 1px;
 }
 
 .video-section{
@@ -15,6 +14,7 @@ body{
     font-weight: bold;
     text-shadow: rgb(1, 13, 29) 0px 3px 10px;
     margin-bottom: 0px;
+    letter-spacing: 1px;
 }
 
 .motto{
@@ -23,6 +23,7 @@ body{
     color: white;
     padding-bottom: 30px;
     text-shadow: rgb(1, 13, 29) 0px 3px 5px;
+    letter-spacing: 1px;
 }
 
 
@@ -78,6 +79,7 @@ body{
     display: inline-block;
     font-size: 18px;
     line-height: 18px;
+    letter-spacing: 1px;
 }
 
 .buttons img{
@@ -133,6 +135,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 700px;
+    letter-spacing: 1px;
 }
 
 .aboutus #about-us-heading{
@@ -188,6 +191,7 @@ body{
   touch-action: manipulation;
   box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
   margin-top: 50px;
+  letter-spacing: 1px;
 }
 
 .aboutus .abtn{
@@ -212,6 +216,7 @@ body{
     background-size: cover;
     width: 100%;
     height: 700px;
+    letter-spacing: 1px;
 }
 
 .careers #careers-heading{
