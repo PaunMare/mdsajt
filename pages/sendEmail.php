@@ -5,8 +5,10 @@ if(isset($_POST['name']) && isset($_POST['email'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
-    $cvLink = $_POST['cv'];
-    $body = 'Link za CV: '.$cvLink;
+    $cvLink = $_POST['body'];
+    $body = 'Link za CV: ';
+
+    $body.=$cvLink;
 
     require_once "PHPMailer/PHPMailer.php";
     require_once "PHPMailer/SMTP.php";

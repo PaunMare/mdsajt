@@ -1,4 +1,4 @@
-.upper-img{
+.upper img{
 	width: 100%;
 	height: auto;
 }
@@ -23,4 +23,151 @@
 	font-size: 20px;
 }
 
+.button-83 {
+	appearance: button;
+	background-color: transparent;
+	background-image: linear-gradient(to bottom, rgb(100, 161, 231), #0b3366);
+	border: 0 solid #e5e7eb;
+	border-radius: .5rem;
+	box-sizing: border-box;
+	color:white;
+	font-family: 'Alatsi', sans-serif;
+	column-gap: 1rem;
+	cursor: pointer;
+	display: flex;
+	font-size: 90%;
+	font-weight: 700;
+	line-height: 24px;
+	outline: 2px solid transparent;
+	padding: 1rem 1.5rem;
+	text-align: center;
+	text-transform: none;
+	transition: all .1s cubic-bezier(.4, 0, .2, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+	margin-bottom: 10px;
+	width: 150px;
+	padding-left: 1.5rem;
+  }
+  
+  .button-83:active {
+	background-color: #f3f4f6;
+	box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+	transform: translateY(0.125rem);
+  }
+  
+  .button-83:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+  }
 
+.container{
+	width: 320px;
+	margin: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+form{
+	margin: auto;
+	display: block;
+}
+
+form .group{ 
+	position:relative; 
+	margin-bottom:45px;
+  }
+form  input{
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:300px;
+	border:none;
+	border-bottom:1px solid #757575;
+  }
+ form input:focus{ outline:none; }
+  
+  /* LABEL ======================================= */
+ form label{
+	color:#999; 
+	font-size:18px;
+	font-weight:normal;
+	position:absolute;
+	pointer-events:none;
+	left:5px;
+	top:10px;
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+ form input:focus ~ label, input:valid ~ label{
+	top:-20px;
+	font-size:14px;
+	color:#5264AE;
+  }
+
+  form .asterix{
+	  position: absolute;
+	  top:-5px;
+	  right: -12px;
+  }
+  
+  /* BOTTOM BARS ================================= */
+ form .bar{ position:relative; display:block; width:300px; }
+ form .bar:before, .bar:after{
+	content:'';
+	height:2px; 
+	width:0;
+	bottom:1px; 
+	position:absolute;
+	background:#5264AE; 
+	transition:0.2s ease all; 
+	-moz-transition:0.2s ease all; 
+	-webkit-transition:0.2s ease all;
+  }
+ form .bar:before {
+	left:50%;
+  }
+ form .bar:after {
+	right:50%; 
+  }
+  
+  /* active state */
+ form input:focus ~ .bar:before, input:focus ~ .bar:after {
+	width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+ form .highlight {
+	position:absolute;
+	height:60%; 
+	width:100px; 
+	top:25%; 
+	left:0;
+	pointer-events:none;
+	opacity:0.5;
+  }
+  
+  /* active state */
+  form input:focus ~ .highlight {
+	-webkit-animation:inputHighlighter 0.3s ease;
+	-moz-animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+	  from { background:#5264AE; }
+	to 	{ width:0; background:transparent; }
+  }
