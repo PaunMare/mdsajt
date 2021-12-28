@@ -166,15 +166,6 @@ form  input{
 	  right: -12px;
   }
   
-
-  
-  /* active state */
- form input:focus ~ .bar:before, form input:focus ~ .bar:after {
-	width:50%;
-  }
-  
-  
-  
   /* active state */
   form input:focus ~ .highlight {
 	-webkit-animation:inputHighlighter 0.3s ease;
