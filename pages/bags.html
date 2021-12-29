@@ -7,38 +7,39 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/contact.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2c6adf2c87.js" crossorigin="anonymous"></script>
     <title>Miracle Dojo</title>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo"><a href="./index.html"><img src="../img/mdlogo.png" id="brt"></a></label>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./aboutus.html">About Us</a></li>
-          <li><a class="activelink" href="./careers.html">Careers</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><a href="../index.html"><img src="../img/mdlogo.png" id="brt"></a></label>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+      <li><a class="activelink"  href="./careers.html">Careers</a></li>
+    </ul>
+</nav>
 
     <div class="upper">
-      <p>BELGRADE, SERBIA - FULLTIME</p>
-      <p class="heading">BACKEND ARCHITECTURE AND GAME SERVER</p>
+      <p style="padding-left: 2px;">BELGRADE, SERBIA - FULLTIME</p>
+      <p class="heading font-title">BACKEND ARCHITECTURE AND GAME SERVER</p>
       <img  src="../img/About_Us.png">
     </div>
 
 
     <div class="contact-text">
-        <p class="text">
-            Will be responsible for building the foundation for WarEden Backend services and later expanding it and scaling for millions of players.
+        <p class="text proba">
+          Will be responsible for building the foundation for WarEden Backend services and later expanding it and scaling for millions of players.
         </p>
-        <ul>Requirements:
+        <ul><span class="font-title">Requirements</span>:
             <li>Advanced C/C++</li>
             <li>Fluent in C#</li>
             <li>Mastery of TCP & HTTP/S</li>
@@ -47,13 +48,13 @@
             <li>Knowledge of network and server security issues</li>
             <li>Database development experience</li>
         </ul>
-        <ul>Pluses:
+        <ul><span class ="font-title">Pluses</span>:
             <li>Passion for writing software from scratch</li>
             <li>Basic understanding of how gameplay loop works</li>
             <li>Played World of Warcraft</li>
         </ul>
 
-        <p class="bottom-text-header">ABOUT WAREDEN:</p>
+        <p class="bottom-text-header font-title">ABOUT WAREDEN:</p>
         <p class="bottom-text">
             WarEden is PC PvP Battle Arena with RPG character customization placed in the Epic Fantasy world.<br>
             It is merging traditional gaming with blockchain technology and NFT / crypto financial ecosystem and thus creates an independent gaming economy where players can earn money while playing the game for fun!
@@ -72,12 +73,6 @@
             <label>Name <span class="asterix">*</span></label>
           </div>
 
-          <div class="group">      
-            <input id="subject" type="text" required autocomplete="off">
-            <span class="highlight"></span>
-            <label>Subject <span class="asterix">*</span></label>
-          </div>
-            
           <div class="group">      
             <input id="email" type="text" required autocomplete="off">
             <span class="highlight"></span>
@@ -124,7 +119,7 @@
         function sendEmail() {
             var name = $("#name");
             var email = $("#email").val();
-            var subject = $("#subject");
+            var subject = "Backend Architecture and Game Server";
             var cv = $("#cv").val();
             var port = $("#port").val();
 
@@ -140,7 +135,7 @@
                    data: {
                        name: name.val(),
                        email: email,
-                       subject: subject.val(),
+                       subject: subject,
                        body: body
                    }, success: function (response) {
                         $('#myForm')[0].reset();

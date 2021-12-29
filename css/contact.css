@@ -1,5 +1,10 @@
 body{
-	font-family: 'Alatsi', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+
+.font-title{
+	font-weight: 700;
 }
 
 .upper{
@@ -20,6 +25,7 @@ body{
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
 
 .upper .heading{
 	font-size: 55px;
@@ -56,7 +62,7 @@ body{
 }
 
 .bt2{
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .button-83 {
@@ -98,7 +104,7 @@ body{
 
 .container{
 	width: 100%;
-	height: 600px;
+	height: 550px;
 	margin: auto;
 	display: block;
 }
@@ -110,7 +116,7 @@ form{
 }
 
 form #name{
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 form .group{ 
@@ -124,11 +130,11 @@ form  input{
 	display:block;
 	width:95%;
 	border:none;
-	border-bottom:1px solid #757575;
+	border-bottom:1.5px solid #757575;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: transparent;
-	color: white;
+
   }
  form input:focus{ outline:none; }
   
@@ -150,7 +156,7 @@ form  input{
  form input:focus ~ label, form input:valid ~ label{
 	top:-22px;
 	font-size:18px;
-	color:#e2593c;
+	color:rgb(100, 161, 231);
   }
 
   form .asterix{
@@ -180,15 +186,6 @@ form  input{
 	to 	{ width:0; background:transparent; }
   }
 
-
-
-.container{
-	width: 100%;
-	height: 600px;
-	margin: auto;
-	display: block;
-	background: white;
-}
 
 .upper{
 	padding-top: 70px;
@@ -244,6 +241,10 @@ and (orientation:landscape) {
 		padding-left: 20%;
 		padding-right: 20%;
 	}
+
+	.upper .place{
+		font-size: 25px;
+	}
 	
 	.upper img{
 		width: 100%;
@@ -259,18 +260,19 @@ and (orientation:landscape) {
 	}
 	
 	.upper .heading{
-		font-size: 55px;
+		padding-top: 5px;
+		font-size: 48px;
 		padding-bottom: 30px;
 	}
 	
 	.contact-text .text{
-		font-size: 25px;
+		font-size: 20px;
 		padding-bottom: 30px;
 		text-align: left;
 	}
 	
 	.contact-text ul{
-		font-size: 25px;
+		font-size: 20px;
 		padding-bottom: 20px;
 	}
 	
@@ -281,23 +283,15 @@ and (orientation:landscape) {
 	}
 	
 	.bottom-text-header{
-		padding-top: 20px;
+		padding-top: 30px;
 		font-size: 40px;
-		padding-bottom: 40px;
+		padding-bottom: 10px;
 	}
 	
 	.bottom-text{
 		font-size: 25px;
 		padding-bottom: 30px;
 		text-align: left;
-	}
-
-	
-	.container{
-		width: 100%;
-		height: 600px;
-		margin: auto;
-		display: block;
 	}
 
 	
@@ -320,7 +314,7 @@ and (orientation:landscape) {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		background: transparent;
-		color: white;
+		color: rgb(47, 46, 46);
 	  }
 }
 
@@ -356,13 +350,13 @@ and (orientation:landscape) {
 	}
 	
 	.contact-text .text{
-		font-size: 25px;
+		font-size: 20px;
 		padding-bottom: 30px;
 		text-align: left;
 	}
 	
 	.contact-text ul{
-		font-size: 25px;
+		font-size: 20px;
 		padding-bottom: 20px;
 	}
 	
@@ -383,14 +377,6 @@ and (orientation:landscape) {
 		padding-bottom: 30px;
 		text-align: left;
 	}
-	
-	.container{
-		width: 100%;
-		height: 600px;
-		margin: auto;
-		display: block;
-	}
-	
 	
 	form #name{
 		margin-top: 40px;
@@ -420,11 +406,11 @@ and (orientation:landscape) {
 	}
 	
 	.contact-text .text{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	
 	.contact-text ul{
-		font-size: 22px;
+		font-size: 18px;
 	}
 	
 	.contact-text ul li{
@@ -438,6 +424,6 @@ and (orientation:landscape) {
 	}
 	
 	.bottom-text{
-		font-size: 22px;
+		font-size: 18px;
 	}	
 }

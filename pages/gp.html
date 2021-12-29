@@ -14,21 +14,21 @@
     <title>Miracle Dojo</title>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo"><a href="./index.html"><img src="../img/mdlogo.png" id="brt"></a></label>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./aboutus.html">About Us</a></li>
-          <li><a class="activelink" href="./careers.html">Careers</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><a href="../index.html"><img src="../img/mdlogo.png" id="brt"></a></label>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+      <li><a class="activelink"  href="./careers.html">Careers</a></li>
+    </ul>
+</nav>
 
     <div class="upper">
-      <p>BELGRADE, SERBIA - FULLTIME</p>
+      <p class="place">BELGRADE, SERBIA - FULLTIME</p>
       <p class="heading">GAMEPLAY PROGRAMMER</p>
       <img  src="../img/About_Us.png">
     </div>
@@ -61,47 +61,44 @@
       </p>
       </div>
 
-    <div class="granica">
       <div class="container">
-        
-        <form id="myForm">
+        <form id="myForm" autocomplete="off">
           
           <div class="group">      
             <input id="name" type="text" required autocomplete="off">
             <span class="highlight"></span>
-            <span class="bar"></span>
             <label>Name <span class="asterix">*</span></label>
-          </div>
-            
-          <div class="group">      
-            <input id="email" type="text" required autocomplete="off">
-            <span class="highlight"></span>
-            <span class="bar"></span>
-            <label>Email <span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
             <input id="subject" type="text" required autocomplete="off">
             <span class="highlight"></span>
-            <span class="bar"></span>
             <label>Subject <span class="asterix">*</span></label>
+          </div>
+            
+          <div class="group">      
+            <input id="email" type="text" required autocomplete="off">
+            <span class="highlight"></span>
+            <label>Email <span class="asterix">*</span></label>
+          </div>
+          
+          <div class="group">      
+            <input id="cv" type="text" required autocomplete="off">
+            <span class="highlight"></span>
+            <label>Link to your CV<span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
-            <input id="body" type="text" required autocomplete="off">
+            <input id="port" type="text" required autocomplete="off">
             <span class="highlight"></span>
-            <span class="bar"></span>
-            <label>Link to your CV <span class="asterix">*</span></label>
+            <label>Link to your Portfolio/Github<span class="asterix">*</span></label>
           </div>
 
-        <button style="margin: auto; display: block;" type="button" class="button-83" onclick="sendEmail()" value="Send An Email">Apply</button>
+        <button style="margin: auto; display: block;" type="button" class="button-83" onclick="sendEmail()" value="Send An Email">SEND APPLICATION</button>
           
         </form>
         
       </div>
-    </div>
-
-      
 
     <footer>
         <img src="../img/mdlogo.png" style="width:80px; height:auto">
@@ -120,41 +117,46 @@
         <p class="copyrights">&copy; 2021 Miracle Dojo</p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript">
-        function sendEmail() {
-            var name = $("#name");
-            var email = $("#email");
-            var subject = $("#subject");
-            var body = $("#body");
+    <script type="text/javascript">
+      function sendEmail() {
+          var name = $("#name");
+          var email = $("#email").val();
+          var subject = "Gameplay Programmer";
+          var cv = $("#cv").val();
+          var port = $("#port").val();
 
-            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
-                $.ajax({
-                   url: 'sendEmail.php',
-                   method: 'POST',
-                   dataType: 'json',
-                   data: {
-                       name: name.val(),
-                       email: email.val(),
-                       subject: subject.val(),
-                       body: body.val()
-                   }, success: function (response) {
-                        $('#myForm')[0].reset();
-                        $('.sent-notification').text("Message Sent Successfully.");
-                   }
-                });
-            }
-        }
+          var body ="Email: " + email +"\n\r Link za CV: " + cv +"\n\r Link za Portfolio/Github: " + port;
+          
+          console.log(body);
 
-        function isNotEmpty(caller) {
-            if (caller.val() == "") {
-                caller.css('border', '1px solid red');
-                return false;
-            } else
-                caller.css('border', '');
+          if (isNotEmpty(name) && isNotEmpty(subject)) {
+              $.ajax({
+                 url: 'sendEmail.php',
+                 method: 'POST',
+                 dataType: 'json',
+                 data: {
+                     name: name.val(),
+                     email: email,
+                     subject: subject,
+                     body: body
+                 }, success: function (response) {
+                      $('#myForm')[0].reset();
+                      $('.sent-notification').text("Message Sent Successfully.");
+                 }
+              });
+          }
+      }
 
-            return true;
-        }
-    </script>
+      function isNotEmpty(caller) {
+          if (caller.val() == "") {
+              caller.css('border', '1px solid red');
+              return false;
+          } else
+              caller.css('border', '');
+
+          return true;
+      }
+  </script>
     
 </body>
 </html>

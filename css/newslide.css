@@ -21,6 +21,10 @@
     list-style: disc;
 }
 
+.carousel-caption .inner{
+    margin-left: -18px;
+}
+
 .carousel-control-prev{
     padding-right: 30px;
     width: 7%;

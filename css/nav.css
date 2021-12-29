@@ -32,6 +32,7 @@
     height:60px;
     width: auto;
     padding-bottom: 5px;
+    vertical-align: middle;
   }
 
   nav ul li{
