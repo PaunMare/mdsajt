@@ -101,12 +101,12 @@ body{
 	height: 600px;
 	margin: auto;
 	display: block;
-	background: url('../img/Aplication_Bg.png') no-repeat left center;
-	background-attachment: local; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+}
+
+form{
+	margin: auto;
+	display: block;
+	width: 320px;
 }
 
 form #name{
@@ -187,7 +187,7 @@ form  input{
 	height: 600px;
 	margin: auto;
 	display: block;
-	background: black;
+	background: white;
 }
 
 .upper{
@@ -298,20 +298,8 @@ and (orientation:landscape) {
 		height: 600px;
 		margin: auto;
 		display: block;
-		background: url('../img/Aplication_Bg.png') no-repeat left center;
-		background-attachment: local; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 	}
-	
-	form{
-		float: right;
-		width: 320px;
-		height:100%;
-		margin-right: 200px;
-	}
+
 	
 	form #name{
 		margin-top: 40px;
@@ -401,20 +389,8 @@ and (orientation:landscape) {
 		height: 600px;
 		margin: auto;
 		display: block;
-		background: url('../img/Aplication_Bg.png') no-repeat left center;
-		background-attachment: local; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 	}
 	
-	form{
-		float: right;
-		width: 320px;
-		height:100%;
-		margin-right: 150px;
-	}
 	
 	form #name{
 		margin-top: 40px;
