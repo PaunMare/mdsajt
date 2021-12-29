@@ -65,34 +65,34 @@
       </div>
     <div class="granica">
       <div class="container">
-        <form id="myForm">
+        <form id="myForm" autocomplete="off">
           
           <div class="group">      
-            <input id="name" type="text" required autocomplete="off">
+            <input id="name" type="text" required autocomplete="nope">
             <span class="highlight"></span>
             <label>Name <span class="asterix">*</span></label>
           </div>
             
           <div class="group">      
-            <input id="email" type="text" required autocomplete="off">
+            <input id="email" type="text" required autocomplete="nope">
             <span class="highlight"></span>
             <label>Email <span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
-            <input id="subject" type="text" required autocomplete="off">
+            <input id="subject" type="text" required autocomplete="nope">
             <span class="highlight"></span>
             <label>Subject <span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
-            <input id="body" type="text" required autocomplete="off">
+            <input id="body" type="text" required autocomplete="nope">
             <span class="highlight"></span>
-            <label>Link to your <span class="asterix">*</span></label>
+            <label>Link to your CV<span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
-            <input id="body" type="text" required autocomplete="off">
+            <input id="body" type="text" required autocomplete="nope">
             <span class="highlight"></span>
             <label>Link to your Portfolio/GitHub <span class="asterix">*</span></label>
           </div>
@@ -122,23 +122,6 @@
         <p class="copyrights">&copy; 2021 Miracle Dojo</p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-    <script>
-      (function() {
-      var name = document.getElementById('name');
-      name.type = 'text';
-      name.removeAttribute('autocomplete');
-      var email = document.getElementById('email');
-      email.type = 'text';
-      email.removeAttribute('autocomplete');
-      var subject = document.getElementById('subject');
-      subject.type = 'text';
-      subject.removeAttribute('autocomplete');
-      var body = document.getElementById('body');
-      body.type = 'text';
-      body.removeAttribute('autocomplete');
-    })();
-    </script>
 	<script type="text/javascript">
         function sendEmail() {
             var name = $("#name");
