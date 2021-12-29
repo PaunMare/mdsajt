@@ -125,6 +125,7 @@ body{
     width: 100%;
     height: auto;
     padding-bottom: 100px;
+    margin-bottom: -1px;
 }
 .aboutus{
     background: url('../img/About_Us.png') no-repeat;
@@ -309,6 +310,10 @@ and (min-width:800px) {
 @media screen and (max-width:1099px)
 and (min-width:800px)
 and (min-height:600px){
+
+    .video-section{
+        padding-top: 50px;
+    }
 
     .slider-section{
         background: url('../img/Bg_1000.png') center top;

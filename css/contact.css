@@ -129,7 +129,7 @@ form  input{
 	font-size:18px;
 	padding:10px 10px 10px 5px;
 	display:block;
-	width:100%;
+	width:95%;
 	border:none;
 	border-bottom:1px solid #757575;
 	margin-top: 10px;
@@ -189,17 +189,12 @@ form  input{
 
 
 
-  .container{
-	width: 90%;
+.container{
+	width: 100%;
 	height: 600px;
 	margin: auto;
 	display: block;
-	background: none;
-}
-
-.granica{
 	background: black;
-	width: 100%;
 }
 
 .upper{
@@ -247,17 +242,6 @@ form  input{
 .bottom-text{
 	font-size: 20px;
 }	
-
-
-form{
-	float: unset;
-	margin-right: unset;
-	margin: auto;
-	display: block;
-	width: 90%;
-	padding-top: 10px;
-}
-
 
 @media screen and (max-width:1920px)
 and (min-width:1601px)
@@ -361,7 +345,7 @@ and (orientation:landscape) {
 
 
   @media screen 
-  and (min-device-width: 1100px) 
+  and (min-device-width: 800px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) 
   and (orientation:landscape){
@@ -436,7 +420,7 @@ and (orientation:landscape) {
 		float: right;
 		width: 320px;
 		height:100%;
-		margin-right: 200px;
+		margin-right: 150px;
 	}
 	
 	form #name{
@@ -486,133 +470,5 @@ and (orientation:landscape) {
 	
 	.bottom-text{
 		font-size: 22px;
-	}	
-}
-
-@media screen 
-  and (max-device-width: 1099px) 
-  and (min-device-width: 800px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation:landscape) {
-	  .upper{
-	padding-top: 100px;
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-.upper img{
-	width: 100%;
-	height: auto;
-	margin: auto;
-	display: block;
-	padding-bottom: 30px;
-}
-
-.contact-text{
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-.upper .heading{
-	font-size: 55px;
-	padding-bottom: 30px;
-}
-
-.contact-text .text{
-	font-size: 25px;
-	padding-bottom: 30px;
-	text-align: left;
-}
-
-.contact-text ul{
-	font-size: 25px;
-	padding-bottom: 20px;
-}
-
-.contact-text ul li{
-	font-size: 20px;
-	padding-top: 5px;
-	margin-left: 40px;
-}
-
-.bottom-text-header{
-	padding-top: 20px;
-	font-size: 40px;
-	padding-bottom: 40px;
-}
-
-.bottom-text{
-	font-size: 25px;
-	padding-bottom: 30px;
-	text-align: left;
-}
-
-
-.container{
-	width: 100%;
-	height: 600px;
-	margin: auto;
-	display: block;
-	background: url('../img/Aplication_Bg.png') no-repeat left center;
-	background-attachment: local; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-form{
-	float: right;
-	width: 320px;
-	height:100%;
-	margin-right: 200px;
-}
-
-form #name{
-	margin-top: 40px;
-}
-
-form .group{ 
-	position:relative; 
-	margin-bottom:45px;
-}
-
-form  input{
-	font-size:18px;
-	padding:10px 10px 10px 5px;
-	display:block;
-	width:100%;
-	border:none;
-	border-bottom:1px solid #757575;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	background: transparent;
-	color: white;
-  }
-	.upper .heading{
-		font-size: 35px;
-		padding-bottom: 25px;
-	}
-	
-	.contact-text .text{
-		font-size: 20px;
-	}
-	
-	.contact-text ul{
-		font-size: 20px;
-	}
-	
-	.contact-text ul li{
-		font-size: 16px;
-	}
-	
-	.bottom-text-header{
-		padding-top: 20px;
-		font-size: 30px;
-		padding-bottom: 30px;
-	}
-	
-	.bottom-text{
-		font-size: 20px;
 	}	
 }
