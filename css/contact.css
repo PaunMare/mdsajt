@@ -128,14 +128,17 @@ form  input{
 	font-size:18px;
 	padding:10px 10px 10px 5px;
 	display:block;
-	width:95%;
+	width:100%;
 	border:none;
-	border-bottom:1.5px solid #757575;
+	border-bottom:1px solid #757575;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background: transparent;
+	color: rgb(47, 46, 46);
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
 
-  }
  form input:focus{ outline:none; }
   
   /* LABEL ======================================= */
@@ -315,7 +318,9 @@ and (orientation:landscape) {
 		margin-bottom: 10px;
 		background: transparent;
 		color: rgb(47, 46, 46);
-	  }
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+	}
 }
 
 
@@ -386,7 +391,7 @@ and (orientation:landscape) {
 		position:relative; 
 		margin-bottom:45px;
 	}
-	
+
 	form  input{
 		font-size:18px;
 		padding:10px 10px 10px 5px;
@@ -397,8 +402,10 @@ and (orientation:landscape) {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		background: transparent;
-		color: white;
-	  }
+		color: rgb(47, 46, 46);
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+	}
 	
 	.upper .heading{
 		font-size: 45px;

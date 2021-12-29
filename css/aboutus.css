@@ -1,5 +1,6 @@
 *{
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
 }
 
 body{
@@ -63,7 +64,7 @@ body{
 }
 
 #myCarousel .slide0{
-    background: url('../img/slajder11.png') no-repeat;
+    background: url('../img/slajder11.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -74,7 +75,7 @@ body{
 }
 
 #myCarousel .slide1{
-    background: url('../img/slajder12.png') no-repeat;
+    background: url('../img/slajder12.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,7 +86,7 @@ body{
 }
 
 #myCarousel .slide2{
-    background: url('../img/slajder13.png') no-repeat;
+    background: url('../img/slajder13.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -96,7 +97,7 @@ body{
 }
 
 #myCarousel .slide3{
-    background: url('../img/slajder14.png') no-repeat;
+    background: url('../img/slajder14.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -107,7 +108,7 @@ body{
 }
 
 #myCarousel .slide4{
-    background: url('../img/slajder15.png') no-repeat;
+    background: url('../img/slajder15.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,7 +119,7 @@ body{
 }
 
 #myCarousel .slide5{
-    background: url('../img/slajder16.png') no-repeat;
+    background: url('../img/slajder16.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -129,7 +130,7 @@ body{
 }
 
 #myCarousel .slide6{
-    background: url('../img/slajder17.png') no-repeat;
+    background: url('../img/slajder17.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,7 +161,7 @@ body{
 }
 
 #myCarousel1 .slide0{
-    background: url('../img/slajder21.png') no-repeat;
+    background: url('../img/slajder21.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -171,7 +172,7 @@ body{
 }
 
 #myCarousel1 .slide1{
-    background: url('../img/slajder22.png') no-repeat;
+    background: url('../img/slajder22.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -182,7 +183,7 @@ body{
 }
 
 #myCarousel1 .slide2{
-    background: url('../img/slajder23.png') no-repeat;
+    background: url('../img/slajder23.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -193,7 +194,7 @@ body{
 }
 
 #myCarousel1 .slide3{
-    background: url('../img/slajder24.png') no-repeat;
+    background: url('../img/slajder24.jpg') no-repeat;
     background-attachment: local; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,7 +235,7 @@ body{
     text-decoration: none;
     margin: auto;
     display: block;
-    width: 200px;
+    width: 220px;
     height: 56px;
     font-size: 20px;
 }
@@ -251,7 +252,8 @@ body{
     border-radius: .5rem;
     box-sizing: border-box;
     color:white;
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
     column-gap: 1rem;
     cursor: pointer;
     display: flex;
@@ -260,7 +262,7 @@ body{
     line-height: 24px;
     margin: 0;
     outline: 2px solid transparent;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.4rem;
     text-align: center;
     text-transform: none;
     transition: all .1s cubic-bezier(.4, 0, .2, 1);
@@ -314,7 +316,7 @@ and (min-width:1100px){
         -o-background-size: cover;
         background-size: cover;
         width: 100%;
-        height: 600px;
+        height: 450px;
     }
 
     .slider-text{
@@ -361,7 +363,7 @@ and (min-width:800px){
         -o-background-size: cover;
         background-size: cover;
         width: 100%;
-        height: 600px;
+        height: 350px;
     }
 
 

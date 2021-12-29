@@ -11,7 +11,8 @@
     list-style: none;
     z-index: 999;
     position: fixed;
-    font-family: 'Alatsi', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+	  font-weight: 400;
     letter-spacing: unset;
   }
   label.logo{
