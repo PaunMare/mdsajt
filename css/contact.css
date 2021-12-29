@@ -109,13 +109,6 @@ body{
     background-size: cover;
 }
 
-form{
-	float: right;
-	width: 320px;
-	height:100%;
-	margin-right: 200px;
-}
-
 form #name{
 	margin-top: 40px;
 }
