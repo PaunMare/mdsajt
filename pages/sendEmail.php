@@ -5,10 +5,7 @@ if(isset($_POST['name']) && isset($_POST['email'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
-    $cvLink = $_POST['body'];
-    $body = 'Link za CV: ';
-
-    $body.=$cvLink;
+    $body = $_POST['body'];
 
     require_once "PHPMailer/PHPMailer.php";
     require_once "PHPMailer/SMTP.php";
@@ -28,8 +25,8 @@ if(isset($_POST['name']) && isset($_POST['email'])){
     //email settings
     $mail->isHTML(true);
     $mail->setFrom("testermail090@gmail.com", $name);
-    $mail->addAddress($email);//ovde ide mail na koji se salje
-    $mail->Subject = ("$email ($subject)");
+    $mail->addAddress("jobs@miracledojo.com");//ovde ide mail na koji se salje
+    $mail->Subject = ("$subject");
     $mail->Body = $body;
 
     if($mail->send()){

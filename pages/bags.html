@@ -85,15 +85,15 @@
           </div>
 
           <div class="group">      
-            <input id="body" type="text" required autocomplete="off">
+            <input id="cv" type="text" required autocomplete="off">
             <span class="highlight"></span>
             <label>Link to your CV<span class="asterix">*</span></label>
           </div>
 
           <div class="group">      
-            <input id="body" type="text" required autocomplete="off">
+            <input id="port" type="text" required autocomplete="off">
             <span class="highlight"></span>
-            <label>Link to your Portfolio/GitHub <span class="asterix">*</span></label>
+            <label>Link to your Portfolio/Github<span class="asterix">*</span></label>
           </div>
 
         <button style="margin: auto; display: block;" type="button" class="button-83" onclick="sendEmail()" value="Send An Email">SEND APPLICATION</button>
@@ -123,20 +123,25 @@
 	<script type="text/javascript">
         function sendEmail() {
             var name = $("#name");
-            var email = $("#email");
+            var email = $("#email").val();
             var subject = $("#subject");
-            var body = $("#body");
+            var cv = $("#cv").val();
+            var port = $("#port").val();
 
-            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+            var body ="Email: " + email +"\n\r Link za CV: " + cv +"\n\r Link za Portfolio/Github: " + port;
+            
+            console.log(body);
+
+            if (isNotEmpty(name) && isNotEmpty(subject)) {
                 $.ajax({
                    url: 'sendEmail.php',
                    method: 'POST',
                    dataType: 'json',
                    data: {
                        name: name.val(),
-                       email: email.val(),
+                       email: email,
                        subject: subject.val(),
-                       body: body.val()
+                       body: body
                    }, success: function (response) {
                         $('#myForm')[0].reset();
                         $('.sent-notification').text("Message Sent Successfully.");

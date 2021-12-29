@@ -1039,6 +1039,10 @@ and (min-width : 601px){
 @media (max-width: 600px)
 and (orientation: portrait){
 
+    #myCarousel .carousel-indicators{
+        display: none;
+    }
+
     #myCarousel{
         width: 300px;
         height: 550px;
@@ -1059,11 +1063,7 @@ and (orientation: portrait){
     }
 
     .carousel-caption .buttons{
-        top: 165px;
-    }
-
-    .slide5 .carousel-caption .buttons, .slide7 .carousel-caption .buttons{
-        top:180px;
+        top: 400px;
     }
 
     .carousel-control-prev{
@@ -1090,7 +1090,7 @@ and (orientation: portrait){
         left: unset;
         left: 0px;
         bottom: unset;
-        top: 70px;
+        top: 80px;
         text-shadow: 2px 2px 2px black;
     }
     
