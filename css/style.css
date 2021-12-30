@@ -139,6 +139,7 @@ body{
 
 .aboutus button span, .careers button span{
     margin-top: 4px;
+    font-size: 20px;
 }
 
 .aboutus #about-us-heading{
@@ -196,6 +197,7 @@ body{
   touch-action: manipulation;
   box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
   margin-top: 50px;
+  padding-top: 1.1rem;
 }
 
 .aboutus .abtn{
