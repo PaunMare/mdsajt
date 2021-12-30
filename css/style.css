@@ -436,6 +436,7 @@ and (orientation: portrait){
     
     .slider-section{
         background: url('../img/Bg_M.png') center top;
+        padding-bottom: 70px;
     }
 
     .naslov{
@@ -461,7 +462,7 @@ and (orientation: portrait){
     }
     
     .aboutus #about-us-heading{
-        padding-top: 20px;
+        padding-top: 0px;
         font-size: 30px;
         color: white;
         font-weight: bold;
@@ -473,7 +474,7 @@ and (orientation: portrait){
     }
     
     .aboutus .text{
-        margin-top: 30px;
+        margin-top: 15px;
         padding-top: 0;
         text-align: center;
         width: unset;
@@ -488,7 +489,7 @@ and (orientation: portrait){
         margin-left: 0px;
         margin: auto;
         display: block;
-        margin-top: 40px;
+        margin-top: 30px;
         font-size: 20px;
     }
 
