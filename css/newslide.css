@@ -73,7 +73,7 @@
     left: 70px;
     bottom: unset;
     top: 232px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 0px 2px 2px black;
     width: 450px;
 }
 
@@ -247,7 +247,7 @@
         left: 33px;
         bottom: unset;
         top: 180px;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0px 2px 2px black;
         width: 450px;
     }
     
@@ -364,7 +364,7 @@ and (min-height:600px){
         left: 20px;
         bottom: unset;
         top: 130px;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0px 2px 2px black;
         width: 350px;
     }
     
@@ -583,7 +583,7 @@ and (orientation: landscape){
         left: 3px;
         bottom: unset;
         top: 70px;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0px 2px 2px black;
     }
     
     .carousel-caption .slider-text{
@@ -1098,7 +1098,7 @@ and (orientation: portrait){
         left: 0px;
         bottom: unset;
         top: 80px;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 0px 1px 2px black;
     }
     
     .carousel-caption .slider-text{
