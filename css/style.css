@@ -363,17 +363,21 @@ and (orientation: landscape){
     }
 
     .aboutus{
-        background: url('../img/About_Us_800.png') no-repeat center center;
+        background: url('../img/AboutUs_Landscape.jpg') no-repeat left center;
         background-attachment: local;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 600px;
+        height: 350px;
+    }
+
+    .button-83{
+        margin-top: 20px;
     }
 
     .aboutus #about-us-heading{
-        padding-top: 80px;
+        padding-top: 60px;
         font-size: 35px;
         color: white;
         font-weight: bold;
@@ -384,7 +388,7 @@ and (orientation: landscape){
     }
     
     .aboutus .text{
-        margin-top: 50px;
+        margin-top: 15px;
         padding-top: 0;
         text-align: left;
         width: 280px;
@@ -396,13 +400,13 @@ and (orientation: landscape){
     
 
     .careers{
-        background: url('../img/Careers_800.png') no-repeat  center center;
+        background: url('../img/Careers_Landscape.jpg') no-repeat  right center;
         background-attachment: local;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 600px;
+        height: 350px;
     }
 
     .careers #careers-heading{
@@ -411,12 +415,12 @@ and (orientation: landscape){
         font-weight: bold;
         padding-bottom: 0;
         padding-left: 50px;
-        padding-top: 120px;
+        padding-top: 70px;
         text-shadow: rgb(1, 13, 29) 0px 3px 5px;
     }
     
     .careers .text{
-        margin-top: 50px;
+        margin-top: 15px;
         padding-top: 0;
         padding-left: 50px;
         text-align: left;
