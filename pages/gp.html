@@ -72,12 +72,6 @@
           </div>
 
           <div class="group">      
-            <input id="subject" type="text" required autocomplete="off">
-            <span class="highlight"></span>
-            <label>Subject <span class="asterix">*</span></label>
-          </div>
-            
-          <div class="group">      
             <input id="email" type="text" required autocomplete="off">
             <span class="highlight"></span>
             <label>Email <span class="asterix">*</span></label>
@@ -118,23 +112,21 @@
     <script type="text/javascript">
       function sendEmail() {
           var name = $("#name");
-          var email = $("#email").val();
+          var email = $("#email");
           var subject = "Gameplay Programmer";
-          var cv = $("#cv").val();
-          var port = $("#port").val();
+          var cv = $("#cv");
+          var port = $("#port");
 
-          var body ="Email: " + email +"\n\r Link za CV: " + cv +"\n\r Link za Portfolio/Github: " + port;
-          
-          console.log(body);
+          if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(cv) && isNotEmpty(port)) {
+          var body ="Email: " + email.val() +"\n\r Link za CV: " + cv.val() +"\n\r Link za Portfolio/Github: " + port.val();
 
-          if (isNotEmpty(name) && isNotEmpty(subject)) {
               $.ajax({
                  url: 'sendEmail.php',
                  method: 'POST',
                  dataType: 'json',
                  data: {
                      name: name.val(),
-                     email: email,
+                     email: email.val(),
                      subject: subject,
                      body: body
                  }, success: function (response) {

@@ -17,14 +17,14 @@ if(isset($_POST['name']) && isset($_POST['email'])){
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "testermail090@gmail.com";
-    $mail->Password = 'testiramomail';
+    $mail->Username = "miracledojojobs@gmail.com";
+    $mail->Password = 'sidsnygyyyhinscz';
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
 
     //email settings
     $mail->isHTML(true);
-    $mail->setFrom("testermail090@gmail.com", $name);
+    $mail->setFrom("miracledojojobs@gmail.com", $name);
     $mail->addAddress("jobs@miracledojo.com");//ovde ide mail na koji se salje
     $mail->Subject = ("$subject");
     $mail->Body = $body;
