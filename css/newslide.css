@@ -248,7 +248,14 @@
         bottom: unset;
         top: 180px;
         text-shadow: 0px 2px 2px black;
-        width: 450px;
+        width: 400px;
+    }
+    .slide5 .carousel-caption {
+        width: 400px;
+    }
+
+    .slide0 .carousel-caption{
+        width: 400px;
     }
     
     .carousel-caption .slider-text{
@@ -356,7 +363,7 @@ and (min-height:600px){
     }
 
     .carousel-caption .buttons{
-        top: 180px;
+        top: 190px;
     }
 
     .carousel-caption{
@@ -365,12 +372,20 @@ and (min-height:600px){
         bottom: unset;
         top: 130px;
         text-shadow: 0px 2px 2px black;
-        width: 350px;
+        width: 300px;
+    }
+
+    .slide5 .carousel-caption {
+        width: 300px;
+    }
+
+    .slide0 .carousel-caption{
+        width: 300px;
     }
     
     .carousel-caption .slider-text{
         font-size: 13px;
-        line-height: 14px;
+        line-height: 13px;
     }
 
     .buttons button {
@@ -396,46 +411,15 @@ and (min-height:600px){
         visibility: hidden;
     }
 
-    .slide0 .carousel-caption{
-        width: 350px;
-    }
-
-    .slide1 .carousel-caption{
-        width: 350px;
-    }
-
-    .slide2 .carousel-caption{
-        width: 350px;
-    }
-
     .slide2 .buttons{
         margin-left: 6px;
     }
 
 
-    .slide3 .carousel-caption{
-        width: 350px;
-    }
-
-    .slide4 .carousel-caption{
-        width: 350px;
-    }
-
-    .slide5 .carousel-caption{
-        width: 350px;
-    }
-
     .slide5 .buttons{
         margin-left: 0px;
     }
 
-    .slide6 .carousel-caption{
-        width: 350px;
-    }
-
-    .slide7 .carousel-caption{
-        width: 350px;
-    }
 
     .slide7 .buttons{
         margin-left: 0px;
@@ -1201,7 +1185,11 @@ and (orientation: portrait){
     }
 
     .slide2 .buttons .row-1{
-        margin-right: 0px;
+        margin-right: 30px;
+    }
+
+    .slide2 .buttons .row-2{
+        padding-left: 37px;
     }
 
     .slide2 .carousel-caption{

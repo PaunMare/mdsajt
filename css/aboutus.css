@@ -397,6 +397,12 @@ and (min-width:800px){
         height: 400px;
     }
 }
+
+@media (max-width: 858px){
+    .top-visak{
+        padding-bottom: 50px;
+    }
+}
 @media (max-width: 900px)
 and (max-height: 500px)
 and (orientation: landscape){
